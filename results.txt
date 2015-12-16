@@ -1,0 +1,42 @@
+#1
+tp = 672, fp = 1, tn = 69, fn = 0
+error rate: 0.00134770889488
+precision: 0.998514115899
+recall: 1.0
+specificity: 0.0142857142857
+
+#2
+tp = 672, fp = 1, tn = 69, fn = 0
+error rate: 0.00134770889488
+precision: 0.998514115899
+recall: 1.0
+specificity: 0.0142857142857
+
+#3
+tp = 676, fp = 1, tn = 64, fn = 1
+error rate: 0.00269541778976
+precision: 0.998522895126
+recall: 0.998522895126
+specificity: 0.0153846153846
+
+#4
+tp = 674, fp = 0, tn = 65, fn = 3
+error rate: 0.00404312668464
+precision: 1.0
+recall: 0.995568685377
+specificity: 0.0
+
+#5
+tp = 685, fp = 1, tn = 55, fn = 1
+error rate: 0.00269541778976
+precision: 0.998542274052
+recall: 0.998542274052
+specificity: 0.0178571428571
+
+#6
+tp = 680, fp = 0, tn = 60, fn = 2
+error rate: 0.00269541778976
+precision: 1.0
+recall: 0.99706744868
+specificity: 0.0
+

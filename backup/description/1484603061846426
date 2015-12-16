@@ -1,0 +1,34 @@
+Bạn biết gì về Render?
+Về cơ bản, render là thao tác sử dụng phần mềm máy tính chuyên dụng để thiết lập, điều khiển các yếu tố tạo nên một phối cảnh diễn họa và tiến hành kết xuất phối cảnh đó với tất cả các yếu tố ánh sáng, vật liệu… ra file ảnh, phục vụ cho công việc diễn họa. Nói một cách “bình dân”, đây chính là quá trình biến những hình khối “xanh xanh đỏ đỏ” trở thành những phối cảnh chân thực, có đủ giá trị thẩm mỹ và tính chân thực để minh họa một ý tưởng thiết kế.
+Tại Việt Nam, V-Ray của Chaos Group và 3DsMax là một cặp bài trùng xuất hiện trong gần như mọi cỗ máy trong các công ty tư vấn thiết kế, thi công và những trường đại học. Gần như mọi sinh viên tại các trường đào tạo ngành thiết kế, đặc biệt là thiết kế nội thất tại Việt Nam và thành phố Hồ Chí Minh nói riêng đều lựa chọn V-ray làm công cụ để thể hiện ý tưởng. 
+Trong thực tế hiện nay, kĩ năng sử dụng và làm việc với V-Ray trong đa số trường hợp tác động không nhỏ tới năng lực thực hiện các đồ án trong nhà trường nói riêng và khả năng thể hiện ý tưởng trong quá trình làm nghề nói chung của các Designer nội thất, đặc biệt ở giai đoạn ứng tuyển và vào làm việc tại các công ty chuyên nghiệp lẫn trong công việc thiết kế tự do.
+Nội dung đào tạo : sau khóa học, học viên sẽ có được những kĩ năng sau.
+•	Sử dụng V-Ray để tạo nguồn sáng cho phối cảnh : Sử dụng HDRI, V-Ray: Environment.
+•	Diễn họa nội thất ban đêm. Mô phỏng nguồn sáng nhân tạo bằng V-Ray Light, V-Ray IES, Omni Light, V-Ray Light Mtl.
+•	Tạo View nhìn cho phối cảnh nội thất : Đặt và thiết lập V-Ray Physical Camera. Nhiếp ảnh căn bản. Khống chế phơi sáng bằng Iso và Shutter Speed.
+•	Tạo vật liệu cơ bản với V-Ray Mtl : Diffuse.
+•	Kĩ thuật Áp vật liệu cho đối tượng. Khống chế và hiệu chỉnh mật độ vật liệu bằng UVWMap, UnWrap Map.
+•	Hiệu chỉnh bề mặt vật liệu cơ bản với Reflection, Refraction, Hi-Light Glossiness, Reflect Glossiness. Phản xạ là gì? Phân biệt Fresnel Reflection và Metalic Reflection, hiệu chỉnh khúc xạ với IOR. Tương tác giữa phản xạ và ánh sáng.
+•	Hiệu chỉnh bề mặt vật liệu nâng cao với hệ thống Maps : Bump map, Displace map, Opacity map, R.Glossiness Map… Tạo hệ thống Map hỗ trợ khả năng thể hiện của vật liệu bằng Photoshop.
+•	Kĩ thuật mô phỏng các vật liệu thực tế : Kính thủy, Gương, Inox, Sắt, Nhôm, Chrome, Vàng, Plastic…v.v…Tạo các hiệu ứng mĩ thuật đặc biệt cho vật liệu gỗ, gạch, đá hoa cương…
+•	Tạo vật liệu phức hợp cao cấp với V-Ray Blend Mtl, V-Ray Override Mtl, V-Ray 2-Sided Mtl…
+•	V-Ray Frame Buffer là gì? Tại sao V-Ray Frame Buffer lại quan trọng đến vậy. Hiệu chỉnh và tối ưu hóa V-Ray Frame Buffer. Sử dụng các công cụ tích hợp để chỉnh sửa ảnh trực tiếp trước khi kết xuất trên khung render.
+•	Hiểu được những giá trị cơ bản và quan trọng nhất quyết định chất lượng và tốc độ Render : Light Cache, Irradiance Map, Color Mapping…..Tinh chỉnh thông số Render khoa học, hiệu quả.
+•	Sử dụng những tính năng mới của V-Ray 3.0 : Render Mask, Render Progressive. Tính năng Use Embree để tối đa hóa thời gian thực hiện diễn họa.
+•	Kĩ năng xử lý hậu kì : thực hiện các thao tác lồng hậu cảnh, xóa phông và Retouch căn bản bằng Photoshop. Sử dụng Photoshop để diễn họa bản vẽ kĩ thuật mặt bằng, mặt đứng. Layout đồ án thiết kế. 
+Thời gian học : 5 tuần (15 buổi).
+Học phí : 2 tr 00 . Học viên có hoàn cảnh khó khăn có thể liên hệ nhóm để được hướng dẫn hỗ trợ thanh toán nhiều đợt và các hình thức ưu đãi riêng.
+Thời gian khai giảng dự kiến : 
+Thứ Tư : 02/12/2015
+Thời gian kết thúc dự kiến : 8/01/2015
+
+Những lợi thế khi theo học tại các khoá đào tạo 3D tại D5 Attic :
+1. Tất cả giảng viên,trợ giảng 3D tại The D5 Attic đều là những sinh viên/cựu sinh viên chuyên ngành Thiết Kế Nội Thất, có kiến thức/kỹ năng sử dụng 3DsMax và V-Ray đáng kể, đã được kiểm nghiệm qua thực tế môi trường làm việc thực tế.
+2. Giảng viên,trợ giảng 3D tại The D5 Attic đều là những Freelancer hoặc đang làm việc trong các môi trường thiết kế chuyên nghiệp, có trong tay những công trình thực tế được triển khai thiết kế hoặc phác thảo bằng 3DsMax cũng như kinh nghiệm trải qua đầy đủ những đồ án trong chương trình đào tạo Đại học chính quy ngành Thiết kế nội thất.
+3. Cơ sở vật chất tốt : không gian học tập nằm trong khối làm việc chung của nhóm thiết kế, phòng học được trang bị điều hoà nhiệt độ thường trực, miễn phí nước uống và cà phê, có bãi đậu xe riêng, học viên được thoải mái sử dụng những sách báo, tài liệu chuyên ngành của nhóm trong thời gian học tập tại Gác.
+4. Với tinh thần của một CoWorking Space. Tất cả thành viên của The D5 Attic luôn sẵn sàng hỗ trợ,thúc đẩy việc học cũng như công việc của học viên. Tạo mọi cơ hội có thể để thành viên được ứng dụng kĩ năng vẽ máy vào công việc thực tế, từ đó kiểm tra và nhanh chóng nâng cao năng lực của mình. The D5 Attic hân hoan chào đón những cá nhân có ý muốn cộng tác với nhóm trong công việc thiết kế sau khi mãn khoá học.
+5. The D5 Attic cam kết hỗ trợ học viên vô thời hạn về mặt kiến thức và kĩ thuật cả trong và sau khi kết thúc khoá học. Mọi thắc mắc của học viên sẽ được giải đáp nhanh nhất có thể. Cam kết hoàn lại 100% học phí nếu học viên không có kĩ năng sau khóa học.
+Ngoài ra, Học viên đăng kí học trong tháng 10 sẽ nhận được những phần quà từ D5 Attic Interior Design :
+1. Giảm ngay 10% học phí cho học viên đăng kí theo nhóm 6 người. 
+2. Quà tặng từ The D5 Attic: 1 áo thun Polo, 1 sổ kí hoạ.
+3. Miễn phí toàn bộ giáo trình phục vụ khoá học.
