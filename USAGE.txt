@@ -3,4 +3,4 @@
 * main10.py: use first 10 features of tf-idf
 * main50.py: use first 50 features of tf-idf
 
-The rest: used for collecting and preprocessing data.
+The rest: used for collecting and preprocessing data
