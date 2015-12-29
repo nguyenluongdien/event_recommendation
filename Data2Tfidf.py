@@ -32,13 +32,12 @@ def createVocabulary(documents):
 	for doc_id, doc in documents.iteritems():	
 		words = doc.split()
 		vocabulary = vocabulary + words
-	
+
 	# remove stopwords, special characters, number
 	f = open('tmp/stopwords.txt')
 	stopwords = f.read().splitlines()
 	f.close()	
-	
-	vocabulary = list(set(vocabulary) - set(stopwords))
+	vocabulary = list(set(vocabulary) - set(stopwords))	
 	
 	return vocabulary
 

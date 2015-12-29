@@ -9,7 +9,7 @@ import os
 import csv
 
 # Collect all filenames
-path = 'descriptions/'
+path = 'descriptions_tokenized/'
 filenames = []
 for f in os.listdir(path):
 	filenames.append(f)
@@ -31,7 +31,7 @@ for f in deleted:
 events = pd.read_csv('data/events.csv', dtype = {'event_id': object, 'owner': object, 'place_id': object})
 events = events[events.event_id.isin(filenames)]
 events.to_csv('data/used_events.csv', index = False)
-'''
+
 # Clean attendees.csv
 attendees = pd.read_csv('data/attendees.csv', dtype = {'event_id': object})
 attendees = attendees[attendees.event_id.isin(filenames)]
@@ -53,6 +53,22 @@ for row in rd:
 print(i)
 inp.close()
 oup.close()
-'''
 
+# find . -type f ! -name "*.*" -exec mv {} {}.html \;
+# find -type f -name '*.txt' | while read f; do mv "$f" "${f%.txt}"; done
+# find -type f -name '*.txt' -print0 | while read -d $'\0' f; do mv "$f" "${f%.txt}"; done
+
+"""
+import pandas as pd
+threshold = '2015-12-23T06:00:00+0700'
+event_name = pd.read_csv('data/event_name.csv', names = ['event_id', 'name', 'bullshit'], dtype = {'event_id': object})
+events = pd.read_csv('data/events.csv')
+event_name = event_name.drop([0])
+event_name.index = range(len(event_name))
+event_name['start_time'] = events['start_time']
+event_name = event_name[event_name.start_time > threshold]
+event_name.sort_values(by = 'start_time', ascending = False, inplace = True)
+event_name.drop(['bullshit'], axis = 1, inplace = True)
+event_name.to_csv('event_name_new.csv', index = False)
+"""
 

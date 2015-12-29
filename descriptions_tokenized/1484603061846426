@@ -1,0 +1,33 @@
+Bạn biết gì về Render ?
+Về cơ_bản , render là thao_tác sử_dụng phần_mềm máy_tính chuyên_dụng để thiết_lập , điều_khiển các yếu_tố tạo nên một phối_cảnh diễn họa và tiến_hành kết xuất phối_cảnh đó với tất_cả các yếu_tố ánh_sáng , vật_liệu … ra file ảnh , phục_vụ cho công_việc diễn họa . Nói một_cách “ bình_dân ” , đây chính là quá_trình biến những hình_khối “ xanh_xanh đỏ đỏ ” trở_thành những phối_cảnh chân_thực , có đủ giá_trị thẩm_mỹ và tính chân_thực để minh_họa một ý_tưởng thiết_kế .
+Tại_Việt_Nam , V-Ray của Chaos_Group và 3DsMax là một cặp_bài_trùng xuất_hiện trong gần_như mọi cỗ máy trong các công_ty tư_vấn thiết_kế , thi_công và những trường đại_học . Gần_như mọi sinh_viên tại các trường đào_tạo ngành thiết_kế , đặc_biệt là thiết_kế nội_thất tại Việt_Nam và thành_phố Hồ_Chí_Minh nói_riêng đều lựa_chọn V-ray làm công_cụ để thể_hiện ý_tưởng .
+Trong thực_tế hiện_nay , kĩ_năng sử_dụng và làm_việc với V-Ray trong đa_số trường_hợp tác_động không nhỏ tới năng_lực thực_hiện các đồ_án trong nhà_trường nói_riêng và khả_năng thể_hiện ý_tưởng trong quá_trình làm nghề nói_chung của các Designer nội_thất , đặc_biệt ở giai_đoạn ứng_tuyển và vào làm_việc tại các công_ty chuyên_nghiệp lẫn trong công_việc thiết_kế tự_do .
+Nội_dung đào_tạo : sau khóa học , học_viên sẽ có được những kĩ_năng sau .
+• Sử_dụng V-Ray để tạo nguồn sáng cho phối_cảnh : Sử_dụng HDRI , V-Ray : Environment .
+• Diễn họa nội_thất ban_đêm . Mô_phỏng nguồn sáng nhân_tạo bằng V-Ray Light , V-Ray IES , Omni_Light , V-Ray Light_Mtl .
+• Tạo_View nhìn cho phối_cảnh nội_thất : Đặt và thiết_lập V-Ray Physical_Camera . Nhiếp_ảnh căn_bản . Khống_chế phơi sáng bằng Iso và Shutter_Speed .
+• Tạo_vật liệu cơ_bản với V-Ray Mtl : Diffuse .
+• Kĩ_thuật Áp vật_liệu cho đối_tượng . Khống_chế và hiệu_chỉnh mật_độ vật_liệu bằng UVWMap , UnWrap Map .
+• Hiệu_chỉnh bề_mặt vật_liệu cơ_bản với Reflection , Refraction , Hi-Light Glossiness , Reflect_Glossiness . Phản_xạ là gì ? Phân_biệt Fresnel_Reflection và Metalic_Reflection , hiệu_chỉnh khúc_xạ với IOR . Tương_tác giữa phản_xạ và ánh_sáng .
+• Hiệu_chỉnh bề_mặt vật_liệu nâng cao với hệ_thống Maps : Bump map , Displace map , Opacity map , R.Glossiness Map … Tạo hệ_thống Map hỗ_trợ khả_năng thể_hiện của vật_liệu bằng Photoshop .
+• Kĩ_thuật mô_phỏng các vật_liệu thực_tế : Kính thủy , Gương , Inox , Sắt , Nhôm , Chrome , Vàng , Plastic … v . v … Tạo các hiệu_ứng mĩ_thuật đặc_biệt cho vật_liệu gỗ , gạch , đá_hoa_cương …
+• Tạo_vật liệu phức_hợp cao_cấp với V-Ray Blend_Mtl , V-Ray Override_Mtl , V-Ray 2-Sided Mtl …
+• V-Ray Frame_Buffer là gì ? Tại_sao V-Ray Frame_Buffer lại quan_trọng đến vậy . Hiệu_chỉnh và tối_ưu_hóa V-Ray Frame_Buffer . Sử_dụng các công_cụ tích_hợp để chỉnh_sửa ảnh trực_tiếp trước khi kết xuất trên khung render .
+• Hiểu được những giá_trị cơ_bản và quan_trọng nhất quyết_định chất_lượng và tốc_độ Render : Light_Cache , Irradiance_Map , Color_Mapping … . . Tinh_chỉnh thông_số Render khoa_học , hiệu_quả .
+• Sử_dụng những tính_năng mới của V-Ray 3.0 : Render_Mask , Render_Progressive . Tính_năng Use_Embree để tối_đa hóa thời_gian thực_hiện diễn họa .
+• Kĩ_năng xử_lý hậu_kì : thực_hiện các thao_tác lồng hậu cảnh , xóa phông và Retouch căn_bản bằng Photoshop . Sử_dụng Photoshop để diễn họa_bản vẽ kĩ_thuật mặt_bằng , mặt đứng . Layout đồ_án thiết_kế .
+Thời_gian học : 5 tuần ( 15 buổi ) .
+Học_phí : 2 tr 00 . Học_viên có hoàn_cảnh khó_khăn có_thể liên_hệ nhóm để được hướng_dẫn hỗ_trợ thanh_toán nhiều đợt và các hình_thức ưu_đãi riêng .
+Thời_gian khai_giảng dự_kiến :
+Thứ_Tư : 02/12/2015
+Thời_gian kết_thúc dự_kiến : 8/01/2015
+Những lợi_thế khi theo học tại các khoá đào_tạo 3D tại D5 Attic :
+1 . Tất_cả giảng_viên , trợ_giảng 3D tại The D5 Attic đều là những sinh_viên / cựu sinh_viên chuyên_ngành Thiết_Kế_Nội_Thất , có kiến_thức / kỹ_năng sử_dụng 3DsMax và V-Ray đáng_kể , đã được kiểm_nghiệm qua thực_tế môi_trường làm_việc thực_tế .
+2 . Giảng_viên , trợ_giảng 3D tại The D5 Attic đều là những Freelancer hoặc đang làm_việc trong các môi_trường thiết_kế chuyên_nghiệp , có trong tay những công_trình thực_tế được triển_khai thiết_kế hoặc phác_thảo bằng 3DsMax cũng_như kinh_nghiệm trải qua đầy_đủ những đồ_án trong chương_trình đào_tạo Đại_học chính_quy ngành Thiết_kế nội_thất .
+3 . Cơ_sở vật_chất tốt : không_gian học_tập nằm trong khối làm_việc chung của nhóm thiết_kế , phòng học được trang_bị điều_hoà_nhiệt_độ thường_trực , miễn_phí nước uống và cà_phê , có bãi đậu xe riêng , học_viên được thoải_mái sử_dụng những sách_báo , tài_liệu chuyên_ngành của nhóm trong thời_gian học_tập tại Gác .
+4 . Với tinh_thần của một CoWorking Space . Tất_cả thành_viên của The D5 Attic luôn sẵn_sàng hỗ_trợ , thúc_đẩy việc học cũng_như công_việc của học_viên . Tạo mọi cơ_hội có_thể để thành_viên được ứng_dụng kĩ_năng vẽ máy vào công_việc thực_tế , từ đó kiểm_tra và nhanh_chóng nâng cao năng_lực của mình . The D5 Attic hân_hoan chào_đón những cá_nhân có ý_muốn cộng_tác với nhóm trong công_việc thiết_kế sau khi mãn_khoá học .
+5 . The D5 Attic cam_kết hỗ_trợ học_viên vô_thời_hạn về mặt kiến_thức và kĩ_thuật cả trong và sau khi kết_thúc khoá học . Mọi thắc_mắc của học_viên sẽ được giải_đáp nhanh_nhất có_thể . Cam_kết hoàn lại 100% học_phí nếu học_viên không có kĩ_năng sau khóa học .
+Ngoài_ra , Học_viên đăng_kí học trong tháng 10 sẽ nhận được những phần quà từ D5 Attic_Interior_Design :
+1 . Giảm ngay 10% học_phí cho học_viên đăng_kí theo nhóm 6 người .
+2 . Quà tặng từ The D5 Attic : 1 áo_thun Polo , 1 sổ kí_hoạ .
+3 . Miễn_phí toàn_bộ giáo_trình phục_vụ khoá học .

@@ -172,9 +172,9 @@ def run_full():
 
 	print('tp = {}, fp = {}, tn = {}, fn = {}'.format(tp, fp, tn, fn))
 	print('error rate: {}'.format(float(error) / len(results)))
-	print('precision: {}'.format(float(tp) / (tp + fp)))
-	print('recall: {}'.format(float(tp) / (tp + fn)))
-	print('specificity: {}'.format(float(fp) / (fp + tn)))
+	print('precision: {}'.format(float(tp) / (tp + fp + 1)))
+	print('recall: {}'.format(float(tp) / (tp + fn + 1)))
+	print('specificity: {}'.format(float(tn) / (tn + fp + 1)))
 
 
 ##################################

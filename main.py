@@ -141,14 +141,14 @@ def get_data(filename):
         	
 	return data
 
-def run_full():
+def run_full(threshold = 0.5, w0 = 0.69, w1 = 0.57):
 	train = get_data('tmp/train.csv')
 	test = get_data('tmp/test.csv')    	
     
 	w = [True] * len(train['X'][0])
 	C = 0.03
     #C = 0.3
-	m1 = Model(has_none=w, C=C)
+	m1 = Model(has_none=w, C=C, threshold = threshold, w0 = w0, w1 = w1)
 	m1.fit(train['X'], train['Y'])
 	results = m1.test(test['X'])	
 	
@@ -170,12 +170,31 @@ def run_full():
 		else:
 			tn += 1
 
-	print('tp = {}, fp = {}, tn = {}, fn = {}'.format(tp, fp, tn, fn))
-	print('error rate: {}'.format(float(error) / len(results)))
-	print('precision: {}'.format(float(tp) / (tp + fp + 1)))
-	print('recall: {}'.format(float(tp) / (tp + fn + 1)))
-	print('specificity: {}'.format(float(tn) / (tn + fp + 1)))
+	err = float(error) / len(results)
+	precision = float(tp) / (tp + fp + 1)
+	recall = float(tp) / (tp + fn + 1)
+	specificity = float(tn) / (tn + fp + 1)
 
+	print('tp = {}, fp = {}, tn = {}, fn = {}'.format(tp, fp, tn, fn))
+	print('error rate: {}'.format(err))
+	print('precision: {}'.format(precision))
+	print('recall: {}'.format(recall))
+	print('specificity: {}'.format(specificity))
+
+	global out_stats
+	out_stats.write('({0}, {1})\t{2}\t{3}\t{4}\t{5}\n'.format(w0, w1, err, precision, recall, specificity))
+
+
+def analyze(threshold = 0.5, w0 = 0.69, w1 = 0.57):
+	train = get_data('tmp/train.csv')
+	test = get_data('tmp/test.csv')    	
+    
+	w = [True] * len(train['X'][0])
+	C = 0.03
+    #C = 0.3
+	m1 = Model(has_none=w, C=C, threshold = threshold, w0 = w0, w1 = w1)
+	m1.fit(train['X'], train['Y'])
+	m1.analyze(test['X'], test['Y'])
 
 ##################################
 # test cases
@@ -184,7 +203,25 @@ def run_full():
 #print(get_distances('10153097450077085', '411662922360897'))
 #print(process_event('10153097450077085', '411662922360897'))
 
-run_full()
+def frange(start, stop, step):
+	r = start
+	while r < stop:
+		yield r
+		r += step
+
+# Visualize weights effect
+out_stats = open('stats.txt', 'a')
+for w0 in frange(0.1, 0.9, 0.1):
+	for w1 in frange(0.1, 0.9, 0.1):
+		run_full(w0 = w0, w1 = w1)
+		print('({0}, {1}) passed'.format(w0, w1))
+	
+out_stats.close()
+
+#run_full()
+#analyze()
+
+
 
 
 

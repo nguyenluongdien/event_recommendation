@@ -116,8 +116,9 @@ test_out.write('user_id,event_id,interested\n')
 for uid, event in train_test.iteritems():
 	N = len(event['attend']) + len(event['maybe']) + len(event['declined']) # total number
 	train_amount = int((N * 2 + 1) / 3)
-	eids = [event['attend'], event['maybe'], event['declined']]	
-	label = ['1', '1', '0'] # 1: interested, 0: not interested
+	eids = [event['attend'] + event['maybe'], event['declined']]	
+	#label = ['1', '1', '0'] # 1: interested, 0: not interested
+	label = ['1', '0'] # 2 classes
 
 	while train_amount > 0:
 		i = random.randrange(len(eids))
