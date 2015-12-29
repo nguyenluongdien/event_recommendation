@@ -1,1 +1,9 @@
 This repository is contributed for thesis about event recommendation.
+
+* Usage:
+- split_data.py: generate new random dataset.
+- main.py: use all features of tf-idf.
+- main10.py: use first 10 features of tf-idf.
+- main50.py: use first 50 features of tf-idf.
+
+The rest: used for collecting and preprocessing data.
