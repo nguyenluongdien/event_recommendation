@@ -85,28 +85,19 @@ oup.write('user_id,attend,maybe,declined\n')
 for user, event in dataset.iteritems():
 	oup.write(user)
 	oup.write(',')
-	for eventId in event['attend'][:-1]:
-		oup.write(eventId + " ")
-	if (len(event['attend']) > 0): 
-		oup.write(event['attend'][-1])
+	oup.write(' '.join(event['attend']))
 	oup.write(',')
 
-	for eventId in event['maybe'][:-1]:
-		oup.write(eventId + " ")
-	if (len(event['maybe']) > 0): 
-		oup.write(event['maybe'][-1])
+	oup.write(' '.join(event['maybe']))
 	oup.write(',')
 
-	for eventId in event['declined'][:-1]:
-		oup.write(eventId + " ")
-	if (len(event['declined']) > 0): 
-		oup.write(event['declined'][-1])
+	oup.write(' '.join(event['declined']))
 	oup.write('\n')
 
 oup.close()
 #print('dataset stored')
 
-balanceData()
+#balanceData()
 # select data for train set and test set
 train_out = open('tmp/train.csv', 'w')
 test_out = open('tmp/test.csv', 'w')

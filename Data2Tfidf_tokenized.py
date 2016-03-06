@@ -6,7 +6,7 @@ import os
 import numpy as np
 import re
 
-top_n = 100
+top_n = 200
 
 # Create collection of documents
 # input: path (string), filenames (list)
@@ -102,13 +102,13 @@ def convert2TFIDF(path):
 	indices = np.argsort(IDF_vect)[:top_n]
 	top_IDF_vect = [IDF_vect[i] for i in indices]
 	top_vocabulary = [vocabulary[i] for i in indices]
-	out = open('data/vocabulary.txt', 'w')
+	out = open('data/token_vocabulary.txt', 'w')
 	out.write(', '.join(top_vocabulary))
 	out.close()
 	print('preparing complete')
 
 	####### Write key terms of documents
-	out_tmp = open('data/event_desc.csv', 'w')
+	out_tmp = open('data/token_event_desc.csv', 'w')
 	out_tmp.write('event_id,terms\n')
 	
 	TFIDFs = {}
@@ -134,7 +134,7 @@ def convert2TFIDF(path):
 #####################################
 #####################################
 TF_IDFs = convert2TFIDF('descriptions_tokenized/')
-out = open('data/event_tfidf.csv', 'w')
+out = open('data/token_event_tfidf.csv', 'w')
 out.write('event_id')
 for i in range(top_n):
 	out.write(',f_' + str(i))
@@ -149,40 +149,3 @@ for eid, record in TF_IDFs.iteritems():
 	out.write('\n')
 
 out.close()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

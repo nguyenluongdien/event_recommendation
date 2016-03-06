@@ -13,7 +13,7 @@ events.fillna('', inplace = True)
 places = pd.read_csv('data/places.csv', dtype = {'place_id': object})
 places.fillna('', inplace = True)
 event_tfidf = pd.read_csv('data/event_tfidf.csv', dtype = {'event_id': object})
-user_event = pd.read_csv('tmp/user_event.csv', dtype = {'user_id': object})
+user_event = pd.read_csv('tmp/dataset.csv', dtype = {'user_id': object})
 user_event.fillna('', inplace = True)
     
 # Compute similarity of current event and user's interested events (in user's history)

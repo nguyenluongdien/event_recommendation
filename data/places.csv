@@ -1,6 +1,6 @@
 place_id,name,city,country,lat,long
 178441095580232,"Trà Sữa Lọ Lem","Binh Thanh",Vietnam,10.8042517,106.6920624
-1512448468999389,"331 Quốc Lộ 1A, Phường An Phú Đông, Quận 12, Tp Hcm","Ho Chi Minh City",Vietnam,10.860573905,106.69490278
+1512448468999389,"331 Quốc Lộ 1A, Phường An Phú Đông, Quận 12, Tp Hcm","Ho Chi Minh City",Vietnam,10.8604813458,106.6950251
 850950584931555,"Stones Gambling Hall","Citrus Heights",United States,38.706332,-121.312445
 640408689343119,"Nhà Văn hóa Thanh niên TP.HCM","Ho Chi Minh City",Vietnam,10.7815838444,106.697621185
 173700849325842,"Riverside Palace","Ho Chi Minh City",Vietnam,10.7555951338,106.690509209
@@ -10,55 +10,59 @@ place_id,name,city,country,lat,long
 278711348827134,"Crescent Mall","Ho Chi Minh City",Vietnam,10.7279016731,106.718132038
 106379452730955,"Nhạc Viện TPHCM","Ho Chi Minh City",Vietnam,10.7741499,106.6950989
 785796941448543,"Samurai Cafe Saigon","Ho Chi Minh City",Vietnam,10.7808671614,106.705946762
-1707412249479794,"C34 Coffee Bar","Ho Chi Minh City",Vietnam,10.7980404,106.6414795
+1707412249479794,"C34 Coffee & Bar","Ho Chi Minh City",Vietnam,10.7980404,106.6414795
 1411695789133639,"UP Station","Ho Chi Minh City",Vietnam,10.7759981,106.7061081
 143962809064655,"Saigon Outcast","Ho Chi Minh City",Vietnam,10.8171473,106.7296753
-261754867359796,"Gala Royale The Event Hall","Ho Chi Minh City",Vietnam,10.7875945441,106.696117846
-105574869774687,"Phố Đi Bộ Nguyễn Huệ","Ho Chi Minh City",Vietnam,10.7726402,106.7049713
 146243825390489,"Robusta Technology & Training","Ho Chi Minh City",Vietnam,10.7695791778,106.702824671
 265056543554703,"Svđ Thống Nhất","Ho Chi Minh City",Vietnam,10.7614627086,106.66337497
-264556493563188,"Cung Văn Hoá Lao Động","Ho Chi Minh City, Vietnam",,10.7762894177,106.692574646
-536528599732652,"Hội trường E4 đại học Công Nghiệp TPHCM","Ho Chi Minh City",Vietnam,10.8401103871,106.649007066
-107721362584090,"Laos","",,17.9666666667,102.6
+264556493563188,"Cung Văn Hoá Lao Động","Ho Chi Minh City, Vietnam",,10.7761898,106.6919174
+536528599732652,"Hội trường E4 đại học Công Nghiệp TPHCM","Ho Chi Minh City",Vietnam,10.81384639,106.68054962
+107721362584090,"Laos","",,18,105
 138513476299097,"Long Island","",,10.8131120383,106.84798991
-301530266611169,"Học Miễn Phí","Ho Chi Minh City",Vietnam,10.75,106.66667
-930885773601020,"Saigon Street Bali","Bali",Indonesia,-8.7086802,115.1697311
-222396024580643,"Trung Tâm Hội Nghị 272","Ho Chi Minh City",Vietnam,10.7792884502,106.683072225
+301530266611169,"Học Miễn Phí","Ho Chi Minh City",Vietnam,10.78054,106.69217
+930885773601020,"Saigon Street Bali","Bali",Indonesia,-8.6787362684,115.153756142
+222396024580643,"Trung Tâm Hội Nghị 272","Ho Chi Minh City",Vietnam,10.77967,106.6838099
 346420522156712,"Vien Huyết Học Truyền Máu Trung Ương","Ho Chi Minh City",Vietnam,21.0247147885,105.788576196
 1649959118552681,"AndroidDev Saigon","Ho Chi Minh City",Vietnam,10.7699318,106.7057571
+242518107823,"Michael's Eighth Avenue","Glen Burnie",United States,39.1770084682,-76.6248139824
 121404550378,"The Deck, Saigon","Ho Chi Minh City",Vietnam,10.8050785,106.7365646
 585812041517670,"Tajmasago Castle","Ho Chi Minh City",Vietnam,10.7237589058,106.720280487
 1548822958732504,"Bean Bean","Ho Chi Minh City",Vietnam,10.80288639,106.71572151
 148316888708402,"Vietnam Human Resources Club - VNHR","Ho Chi Minh City",Vietnam,10.7907801,106.705658
-248539195294165,"VCCI Exhibition Services Co., Ltd","Ho Chi Minh City",Vietnam,10.7827902,106.6870804
+248539195294165,"VCCI Exhibition Services Co., Ltd","Ho Chi Minh City",Vietnam,10.78279,106.68708
 742625392480128,"Gem Center","Ho Chi Minh City",Vietnam,10.7899704,106.7022018
-1396105537380038,"Total Consultancy Limited Vietnam/Di trú- Đầu tư- Quốc Tịch","Ho Chi Minh City",Vietnam,10.7548504,106.6564331
+1396105537380038,"Tclvn.com/Di trú- Đầu tư- Quốc Tịch   Hotline:19006193","Ho Chi Minh City",Vietnam,10.7289796,106.6880016
 591413194337503,"Đoàn Khoa Kinh Tế Quốc Tế - Trường Đại Học Ngân Hàng TP.HCM","Ho Chi Minh City",Vietnam,10.857995,106.7632446
 530519887062283,"Bv Phạm Ngọc Thạch","Ho Chi Minh City",Vietnam,10.757289056,106.664916537
 525583710830158,"M.A.C Boutique- Office Lady's Fashion","Ho Chi Minh City",Vietnam,10.7856503,106.6930771
 1470485513265781,"Topless Tea Express","Ho Chi Minh City",Vietnam,10.7721701,106.6943436
 120815114659379,"Học Viện Ngân Hàng - Banking Academy of Vietnam","Ho Chi Minh City",Vietnam,21.0094248465,105.828898491
 253793034815806,"THE BEST Shopping","Ho Chi Minh City",Vietnam,10.7846181878,106.668024659
+389706057768446,"New World Saigon Hotel","Ho Chi Minh City",Vietnam,10.770891017,106.694825142
 368015956679599,"Siêu thị My Market Quận 2","Ho Chi Minh City",Vietnam,10.7990577358,106.751555044
-513498448769558,"Chùa Phước Tường","Ho Chi Minh City",Vietnam,10.8420197914,106.788948426
+513498448769558,"Chùa Phước Tường","TpHCM",,10.8420197914,106.788948426
 1609541019315274,"208 Nguyen Huu Canh. F22. Quận Bình Thạnh","Ho Chi Minh City",Vietnam,10.7950575504,106.721977629
 124435000920899,"SFR","Ho Chi Minh City",Vietnam,10.7609785253,106.668513853
 1437374359836898,"Memories Coffee House 186 Doc Lap","Ho Chi Minh City",Vietnam,10.7924435344,106.631911403
 134772293203808,"The American School","Ho Chi Minh City",Vietnam,10.81589517,106.72802696
-269792559786591,"Cô Nhi Viện THIÊN BÌNH, huyện Long Thành, tỉnh Đồng Nai","",,10.7391824088,106.700402229
-128758810585914,"Q.12, TP.HCM","",,10.8524386939,106.637990896
-152907784758417,"Officience","Ho Chi Minh City",Vietnam,10.7949607149,106.678578392
+269792559786591,"Cô Nhi Viện THIÊN BÌNH, huyện Long Thành, tỉnh Đồng Nai","Ho Chi Minh City",Vietnam,10.7391824088,106.700402229
+128758810585914,"Q.12, TP.HCM","Ho Chi Minh City",Vietnam,10.8524386939,106.637990896
+152907784758417,"Officience","Ho Chi Minh City",Vietnam,10.7949595944,106.678549492
 586009644814508,"Công Viên Hoàng Văn Thụ","Ho Chi Minh City",Vietnam,10.8027850578,106.665066786
 412457818894617,"Nhà Thiếu Nhi - Quận Đoàn 10","Ho Chi Minh City",Vietnam,10.7812042913,106.659884656
 627685557246892,"The Bike Shop VN","Ho Chi Minh City",Vietnam,10.8099757672,106.731309731
 104580643217496,"Thư viện Khoa học Tổng hợp TP.HCM","Ho Chi Minh City",Vietnam,10.7750301,106.69841
+874761379214229,"Hội Đồng Hương Nghĩa Hành","Nghia Hanh",Vietnam,15.1167,108.8
 527707137245274,"ZenLeader","Ho Chi Minh City",Vietnam,10.77429999,106.70495656
 590899324277189,"Trung Tâm Hội Chợ Và Triển Lãm Sài Gòn SECC","Ho Chi Minh City",Vietnam,10.7769519588,106.68970151
+105574869774687,"Phố Đi Bộ Nguyễn Huệ","Ho Chi Minh City",Vietnam,10.77382,106.70368
 231483033583144,"RMIT University Vietnam","Ho Chi Minh City",Vietnam,10.7294116086,106.695087171
-297115090491673,"Tân Trào Phú Mỹ Hưng Quận 7","Ho Chi Minh City",Vietnam,10.7622007309,106.649137939
-821207644606881,"Trung tâm Ôn Luyện Kỳ thi Quốc gia Uy tín tại Tp. Hồ Chí Minh","Ho Chi Minh City",Vietnam,10.75,106.66667
+297115090491673,"Tân Trào Phú Mỹ Hưng Quận 7","",,10.7622007309,106.649137939
+483918051719299,"CGV Parkson Paragon","Ho Chi Minh City",Vietnam,10.7294587971,106.72176687
+250049581795712,"Exile Ink Vietnam","Ho Chi Minh City",Vietnam,10.8061275,106.7352066
 1554881234741679,"Nhật ngữ Tokyo Lion","Ho Chi Minh City",Vietnam,10.8474672,106.7708851
 551180438232919,"Saigon, Vietnam","",,10.7962954864,106.673105983
+1401829486717844,"Công ty CP Đầu Tư Công Nghệ Trí Tuệ Trẻ - VNYI","Ho Chi Minh City",Vietnam,10.7596926224,106.690100271
 792529450807497,"Hanoi Opera House","Hanoi",Vietnam,21.0241666667,105.857777778
 900288829999422,"Idecaf","Ho Chi Minh City",Vietnam,10.7799597,106.7036972
 307650282724420,"Moon coffee","Ho Chi Minh City",Vietnam,10.7753456508,106.664165259
@@ -69,16 +73,16 @@ place_id,name,city,country,lat,long
 352671261514692,"Al Fresco's","Ho Chi Minh City",Vietnam,10.8039871966,106.735397453
 150643144998194,"Đại học Công nghiệp Thực phẩm TPHCM","Ho Chi Minh City",Vietnam,10.806138,106.6286697
 401696889888432,"Khoa Học Tự Nhiên Giảng Đường 1","Ho Chi Minh City",Vietnam,10.7623720542,106.682422003
-297695540335617,"Trường ĐH Khoa Học & Tự Nhiên","Ho Chi Minh City",Vietnam,10.8744209831,106.798417568
+297695540335617,"Trường ĐH Khoa Học & Tự Nhiên","Ho Chi Minh City",Vietnam,10.8753547665,106.797989973
 131210596934188,"Liberty Central Hotel","",,10.7736902,106.6986313
 666873386674756,"CLB Tình Nguyện HOPE tại Tp.HCM","Ho Chi Minh City",Vietnam,10.80049326,106.66244984
-697501723669552,"Quán Nướng Ngói & Lẩu Cá Đuối","Ho Chi Minh City",Vietnam,10.7581909329,106.665951411
+697501723669552,"Quán Nướng Ngói & Lẩu Cá Đuối","Ho Chi Minh City",Vietnam,10.7581945038,106.665915611
 460220967445906,"Liberty Central Saigon Citypoint Hotel","Ho Chi Minh City",Vietnam,10.7734884408,106.700034142
 269620783073712,"FGate","Ho Chi Minh City",Vietnam,10.7761271187,106.688036693
-178042399063167,"Nhà Hàng Khách Sạn Liberty.","Ho Chi Minh City",Vietnam,10.75,106.66667
+178042399063167,"Nhà Hàng Khách Sạn Liberty.","Ho Chi Minh City",Vietnam,10.76819,106.6922699
 233518100170351,"Britz Craft Beer Pub","Ho Chi Minh City",Vietnam,10.7318602,106.7094879
 460947700604260,"Sân Vận Động Thống Nhất (Tp.Hồ Chí Minh)","Ho Chi Minh City",Vietnam,10.760572057,106.662916863
-185505541640293,"VISTA WALK","Ho Chi Minh City",Vietnam,10.8058127956,106.751438208
+185505541640293,"VISTA WALK","Ho Chi Minh City",Vietnam,10.6833,106.667
 160089624104655,"Trường Đại Học Nông Lâm TP.HCM","Ho Chi Minh City",Vietnam,10.8706289358,106.789889175
 404155176321305,"The Print Room","Ho Chi Minh City",Vietnam,10.7771322989,106.699800969
 105546522811770,"Ho Chi Minh City International University","Ho Chi Minh City",Vietnam,10.8777,106.802
@@ -89,398 +93,432 @@ place_id,name,city,country,lat,long
 252004458260447,"Sai Gon Skate Park","Ho Chi Minh City",Vietnam,10.820096,106.7260284
 182542365100031,"Hoang Anh Gia Lai","Ho Chi Minh City",Vietnam,10.7199592348,106.700792598
 186974978020618,"Sân vận động Thống Nhất","Ho Chi Minh City",Vietnam,10.7606674352,106.663131239
-1456732647966039,"19 Hồ Văn Huê, F9,q Phú Nhuận","Ho Chi Minh City",Vietnam,10.80640357,106.67654755
 111519353773,"Hard Rock Cafe Vietnam","Ho Chi Minh City",Vietnam,10.7813730555,106.700110275
-722213971152713,"Trường Doanh Nhân PTI","Ho Chi Minh City",Vietnam,10.78322577,106.691116647
 152568304931268,"Whisky Saigon","Boston",United States,42.3523102,-71.065712
-147117621975767,"The House of Saigon","Ho Chi Minh City",Vietnam,10.7734212583,106.69760676
-1429807040605836,"Hội YBS Thiện nguyện Tâm Phúc","Ho Chi Minh City",Vietnam,10.7917228083,106.65384454
 302269166541541,"Đại Học Văn Lang","Ho Chi Minh City",Vietnam,10.8124707494,106.694348417
 1415009845470518,"CLB Bóng Bàn - Cầu Lông - Phường 12 Hương Tràm","Ho Chi Minh City",Vietnam,10.8095717,106.7046696
-106388046062960,"Hanoi, Vietnam","Hanoi",Vietnam,21.0333,105.85
+691672590865227,"House of Son Tinh","Hanoi",Vietnam,21.0628986,105.829155
 481222528625470,"Apollo English 360","Ho Chi Minh City",Vietnam,10.7819004,106.6968613
 616736635138732,"Vertical Academy","Ho Chi Minh City",Vietnam,10.8089192858,106.733452816
-415132265208836,"Cafe Tượng","Ho Chi Minh City",Vietnam,10.7756055343,106.664450646
+415132265208836,"Cafe Tượng","Ho Chi Minh City",Vietnam,10.7757553,106.6644507
 614042118658112,"Công Viên Gia Định","Ho Chi Minh City",Vietnam,10.8118869782,106.675823548
 406962065981560,"Đại Học Mở Tp.Hcm - 97 Võ Văn Tần","Ho Chi Minh City",Vietnam,10.7761675817,106.690287831
 1423637851185250,"Xe Lam Bistro","Ho Chi Minh City",Vietnam,10.7768214123,106.662962456
 551286744954713,"Mondovino Wine Club","Ho Chi Minh City",Vietnam,10.7669958984,106.701123118
-426946900745046,"PCG Vietnam","Ho Chi Minh City",Vietnam,10.7841666667,106.703611111
+1401556030087272,"Trung tâm Luyện thi Đại học Chất lượng cao QSc-45","Ho Chi Minh City",Vietnam,10.7878916359,106.698860366
 750225778350527,"Quận Bình Tân TP.HCM","Ho Chi Minh City",Vietnam,10.74969865,106.5854794
-147368101966935,"IDP Education VietNam","Ho Chi Minh City",Vietnam,10.7849323285,106.699024206
+147368101966935,"IDP Education VietNam","Ho Chi Minh City",Vietnam,10.7849483167,106.69895415
 374013099354936,"Trung Tâm Hội Nghị Và Triển Lãm Quốc Tế Secc","Ho Chi Minh City",Vietnam,10.7430998617,106.683084013
 296838670469955,"Coffee Hypermarket","Ho Chi Minh City",Vietnam,10.7918901,106.6956863
 197490273611584,"Park Hyatt Saigon","Ho Chi Minh City",Vietnam,10.7775375916,106.703445524
 760474480698633,"Thủ Thiêm Bridge","Ho Chi Minh City",Vietnam,10.7852429126,106.718871457
+1519045601745278,"Du học ICO - TP.HCM","Ho Chi Minh City",Vietnam,10.8033316,106.6899495
 129765995630,"Sheraton Saigon Hotel & Towers","Ho Chi Minh City",Vietnam,10.7754838961,106.704047175
 280474978690664,"Buu Diên Thành Phô Ho Chí Minh / Hcmc Central Post Office","Ho Chi Minh City",Vietnam,10.7797093029,106.699810542
 277375675622024,"Trường Đại học Sư Phạm TP. Hồ Chí Minh","Ho Chi Minh City",Vietnam,10.7609679852,106.68227895
 196576370505360,"CARMAH","Ho Chi Minh City",Vietnam,10.7776642,106.6915436
 136363746430809,"Lotte Mart, Dist. 7, HCMC","Ho Chi Minh City, Vietnam",,10.7409343249,106.701379294
-592794974107813,"Uranus","Ho Chi Minh City",Vietnam,10.75,106.66667
+592794974107813,"Uranus","Ho Chi Minh City",Vietnam,10.7578099,106.68438
 206342816141087,"cơ quan đại diện Bộ Giáo Dục và Đào Tạo- Số 3 Công Trương Quốc Tế","Ho Chi Minh City",Vietnam,10.78267,106.6953964
 739156806116734,"My Casa","Da Nang",Vietnam,16.0723362218,108.244260117
 743595102319906,"UEH School of Economics","Ho Chi Minh City",Vietnam,10.7962207888,106.672213205
 285914334821142,"DeciBel Lounge","Ho Chi Minh City",Vietnam,10.7902585942,106.698944923
 936322309729025,"Air 360 Sky Bar","Ho Chi Minh City",Vietnam,10.7677002,106.6963425
-422816254452621,"UniStar Education","Ho Chi Minh City",Vietnam,10.75,106.66667
-290465327646803,"Saigon Exhibition ＆ Convention Center - SECC Vietnam","Ho Chi Minh City",Vietnam,10.7308527853,106.721973116
-681295792003071,"KOTO Kumho - a Training Restaurant","Ho Chi Minh City",Vietnam,10.7815475,106.6998291
-524538074238532,"Ban Truyền Thông Đoàn trường ĐH Bách Khoa Tp.HCM","Ho Chi Minh City",Vietnam,10.7737150449,106.661270857
 167527659968760,"Stockton Boulevard Partnership","Sacramento",United States,38.5248108,-121.4423294
-848078751874309,"Du học Úc AVSS HCM 99 Nguyễn Bỉnh Khiêm, Q.1, Tp.HCM","Ho Chi Minh City",Vietnam,10.7915602,106.7002487
-138939216176677,"Tate Center Grand Hall","Athens",United States,33.9507097902,-83.3758149042
+290465327646803,"Saigon Exhibition ＆ Convention Center - SECC Vietnam","Ho Chi Minh City",Vietnam,10.7308527853,106.721973116
+422816254452621,"UniStar Education - Du học từ bậc Phổ Thông","Ho Chi Minh City",Vietnam,10.75,106.66667
 251653318220740,"Saigon (Ho Chi Minh City)","",,10.7680481033,106.693813695
 235571816517530,"Compass Education","Ho Chi Minh City",Vietnam,10.7786169762,106.691296536
-598038957001103,"Champion Saigon","Ho Chi Minh City",Vietnam,10.7671003,106.6934814
-154985361297846,"Đền Tưởng Niệm Các Vua Hùng - Q9 - Tp HCM","Ho Chi Minh City",Vietnam,10.8891747204,106.824372541
+106388046062960,"Hanoi, Vietnam","Hanoi",Vietnam,21.0333,105.85
 946435645370657,"VÀNH ĐAI XANH","Ho Chi Minh City",Vietnam,10.7588476352,106.626058762
 591716884258780,"Câu lạc bộ FIT FUN YOUNG Forever","Ho Chi Minh City",Vietnam,10.75,106.66667
 405649939473945,"Đà Lạt City","Ho Chi Minh City, Vietnam",,10.7843536752,106.681458833
-208769232649566,"Nhà Thờ Tin Lành Hòa Hưng","Ho Chi Minh City",Vietnam,10.7894913553,106.664472531
-150341078640033,"Cuba la Casa del Mojito","Ho Chi Minh City",Vietnam,10.7771196,106.6994095
+574673479312499,"BAC - Business Analyst Training Center","Ho Chi Minh City",Vietnam,10.7807754196,106.68613586
+533805656758255,"Hoi Quan Sinh Vat Canh Q8","Ho Chi Minh City",Vietnam,10.7420069349,106.660849079
 1459644000928895,"Phú Mỹ Hưng","Ho Chi Minh City",Vietnam,10.7317765563,106.707386395
 350826471663347,"Nha Hang Dai Nam Hung","Ho Chi Minh City",Vietnam,10.819109,106.700737
 537437012956308,"Hội Đức Bà","Ho Chi Minh City",Vietnam,10.7828224622,106.68082251
+722213971152713,"Trường Doanh Nhân PTI","Ho Chi Minh City",Vietnam,10.78327,106.69111
 1385327801723360,"Bakerland 27b Nguyễn Thông, P7, Q3, Hcm","Ho Chi Minh City",Vietnam,10.7768402,106.685997
+426946900745046,"PCG Vietnam","Ho Chi Minh City",Vietnam,10.7841666667,106.703611111
 180234442158435,"Vyoga Cộng Hoà","Ho Chi Minh City",Vietnam,10.8007198864,106.648807756
 1575046126057886,"V Education :: Study in Australia Experts","Brisbane",Australia,-27.4648,153.02901
-574673479312499,"BAC - Business Analyst Training Center","Ho Chi Minh City",Vietnam,10.7807754196,106.68613586
+473816759364371,"khách sạn Sen Việt 33 Cao Thắng Q.3 TP HCM","Ho Chi Minh City",Vietnam,10.7695238038,106.682193851
+147117621975767,"The House of Saigon","Ho Chi Minh City",Vietnam,10.7734212583,106.69760676
+1429807040605836,"Hội YBS Thiện nguyện Tâm Phúc","Ho Chi Minh City",Vietnam,10.7917228083,106.65384454
 1473121403001371,"Căn Hộ The Gold View","Ho Chi Minh City",Vietnam,10.7565384,106.6912766
-582263571809924,"Gia Đình Tâm Thiện Bụi Đời 283/9 Phạm Ngũ Lão, Q.1","Ho Chi Minh City",Vietnam,10.8049818,106.6611395
-192118360967820,"Caffe Molinari","Ho Chi Minh City",Vietnam,10.7867766995,106.705102031
-605882169516546,"Saigon's Lookout","Ho Chi Minh City",Vietnam,10.7662314346,106.69932707
+192118360967820,"Caffe Molinari","Ho Chi Minh City",Vietnam,10.7867831308,106.705099527
+216650281863123,"Khu Vui Chơi Châu Âu Vietopia","Ho Chi Minh City",Vietnam,10.7419624266,106.694950117
 410767352382968,"Nhà Thi Đấu Nguyễn Du","Ho Chi Minh City",Vietnam,10.773224708,106.693281598
 436654819745455,"CLB Hiphop Dance ĐH Luật TPHCM - BYC","Ho Chi Minh City",Vietnam,10.8050461,106.6881943
-385721254831519,"Vinaevent Trade Pro co., LTD","Ho Chi Minh City",Vietnam,10.8552694,106.6387939
-359060347178,"Hội Những Người Thích Đi Du Lịch Bụi","Ho Chi Minh City",Vietnam,11.3066627756,106.128585614
+385721254831519,"Vinaevent Trade Pro co., LTD","Ho Chi Minh City",Vietnam,10.8552692,106.6387974
+359060347178,"Hội Những Người Thích Đi Du Lịch Bụi","Ho Chi Minh City",Vietnam,10.7694,106.682
 1575293096059517,"Chanh Bistro Rooftop Saigon","Ho Chi Minh City",Vietnam,10.7715079668,106.704058487
 138836452896592,"Hồng Đức Hospital","Ho Chi Minh City",Vietnam,10.8329767523,106.664608447
 324716624349762,"Ấp 4 xã Nhơn Đức, huyện Nhà Bè, TP.HCM","Nhà Bè",Vietnam,10.656983853,106.688405911
-490272757677536,"Trường Cao Đẳng Nghề Kỹ Thuật Công Nghệ TP.HCM","Ho Chi Minh City",Vietnam,10.78834742,106.624858211
-1457253097844155,"Thảm lót sàn Hưng Thịnh 0903424703 TP.HCM","Ho Chi Minh City",Vietnam,10.7850428,106.6506958
-182926888574694,"CLB HĐXH Khát Vọng Việt","Ho Chi Minh City",Vietnam,10.8448903323,106.757373583
-197197913731478,"Rmit Saigon South Campus","Ho Chi Minh City",Vietnam,10.7295090805,106.693244629
-268387536637911,"HUTECH - Đại học Công nghệ Tp.HCM","Ho Chi Minh City",Vietnam,10.8017767421,106.715066273
-343437982349380,"Kinh Doanh Trên Internet","Ho Chi Minh City",Vietnam,10.7763175838,106.692237294
-748665778612881,"Nhà Xuất Bản Trẻ","Ho Chi Minh City",Vietnam,10.7835903,106.684227
-139069359454848,"Rex Hotel","Ho Chi Minh City",Vietnam,10.7758333333,106.7015
-731761173517581,"Escape Party","Ho Chi Minh City",Vietnam,10.7287839198,106.723810193
-548193241868218,"Mi Lua","Ho Chi Minh City",Vietnam,10.7822934685,106.705367236
-337993396224046,"Galaxy Cine Nguyen Du","Ho Chi Minh City",Vietnam,10.7730503,106.693573
-211536622247965,"Thông tấn xã TPHCM","Ho Chi Minh City",Vietnam,10.7781484173,106.693017492
-118134971583940,"Cafe Tinh Tế","Ho Chi Minh City",Vietnam,10.7777824,106.6811295
-1562523137314904,"The Cube Bar Saigon","Ho Chi Minh City",Vietnam,10.78392654,106.68439116
-649211478504730,"Tư vấn du học UniLink","Ho Chi Minh City",Vietnam,10.7912483066,106.697138429
-221295881261517,"Cafe Bar KESERA","Ho Chi Minh City",Vietnam,10.7803255658,106.704117269
-113765112091581,"Angel In Us Phú Mỹ Hưng","Ho Chi Minh City",Vietnam,10.721595303,106.71171079
-601846669902179,"Vietsourcing Training Center","Ho Chi Minh City",Vietnam,10.785720748,106.667290286
-761626940623147,"Xanh Cà Phê","Ho Chi Minh City",Vietnam,10.8058967767,106.71558273
-155988581133002,"The Tavern Phu My Hung","Ho Chi Minh City",Vietnam,10.7327239829,106.708602544
-383915208468281,"Bell Coffee 54 Huynh Khuong Ninh, F. Đakao, Q1, Tphcm","Ho Chi Minh City",Vietnam,10.7896404,106.6957779
-433364086802568,"Glow Skybar","Ho Chi Minh City",Vietnam,10.7768832155,106.698179085
+605882169516546,"Saigon's Lookout","Ho Chi Minh City",Vietnam,10.7662314346,106.69932707
 1406397212937238,"Bờ Kè Kênh Nhiêu Lộc","Ho Chi Minh City",Vietnam,10.7878652878,106.671185333
-254129851296643,"School of Industrial Management - HCMc University of Technology","Ho Chi Minh City",Vietnam,10.7733702925,106.660014981
+254129851296643,"School of Industrial Management - HCMc University of Technology","Ho Chi Minh City",Vietnam,10.7735320195,106.660627855
+197197913731478,"RMIT Saigon South campus","Ho Chi Minh City",Vietnam,10.7294116086,106.695087171
+343437982349380,"Kinh Doanh Trên Internet","Ho Chi Minh City",Vietnam,10.7763175838,106.692237294
+731761173517581,"Escape Party","Ho Chi Minh City",Vietnam,10.7287839198,106.723810193
+158338947549841,"Palace Hotel SaiGon","",,10.774166257,106.70349579
+211536622247965,"Thông tấn xã TPHCM","Ho Chi Minh City",Vietnam,10.7781484173,106.693017492
+118134971583940,"Cafe Tinh Tế","Ho Chi Minh City",Vietnam,10.7693132427,106.669133658
+1562523137314904,"The Cube Bar Saigon","Ho Chi Minh City",Vietnam,10.78392654,106.68439116
+111792892269259,"Crna kuća","Novi Sad",Serbia,45.25835145,19.839890015
+446098952104001,"Hồ Bơi Khu Nam Long, Quận 7","Ho Chi Minh City",Vietnam,10.7428741897,106.735195963
+601846669902179,"Vietsourcing Training Center","Ho Chi Minh City",Vietnam,10.785721472,106.667309305
+155988581133002,"The Tavern Phu My Hung","Ho Chi Minh City",Vietnam,10.7327239829,106.708602544
+524538074238532,"Ban Truyền Thông Đoàn trường ĐH Bách Khoa Tp.HCM","Ho Chi Minh City",Vietnam,10.7737150449,106.661270857
+761626940623147,"Xanh Cà Phê","Ho Chi Minh City",Vietnam,10.8058967767,106.71558273
+848078751874309,"Du học Úc AVSS HCM 99 Nguyễn Bỉnh Khiêm, Q.1, Tp.HCM","Ho Chi Minh City",Vietnam,10.7915602,106.7002487
+138939216176677,"Tate Center Grand Hall","Athens",United States,33.9507097902,-83.3758149042
+383915208468281,"Bell Coffee 54 Huynh Khuong Ninh, F. Đakao, Q1, Tphcm","Ho Chi Minh City",Vietnam,10.7896404,106.6957779
+598038957001103,"Champion Saigon","Ho Chi Minh City",Vietnam,10.7671003,106.6934814
+154985361297846,"Đền Tưởng Niệm Các Vua Hùng - Q9 - Tp HCM","Ho Chi Minh City",Vietnam,10.8891747204,106.824372541
+213994785384590,"2 Bis Nguyen Thi Minh Khai, Q1, Tphcm","Ho Chi Minh City",Vietnam,10.7907948302,106.704434639
 368875333207010,"Pandora Plaza","Ho Chi Minh City",Vietnam,10.8068469617,106.63438666
 1677803725783969,"Blue Studio","Ho Chi Minh City",Vietnam,10.7679796,106.69664
-248454621922373,"Trường Đại Học Bách Khoa","Ho Chi Minh City",Vietnam,10.75,106.66667
+208769232649566,"Nhà Thờ Tin Lành Hòa Hưng","Ho Chi Minh City",Vietnam,10.7894913553,106.664472531
+150341078640033,"Cuba la Casa del Mojito","Ho Chi Minh City",Vietnam,10.7771196,106.6994095
+248454621922373,"Trường Đại Học Bách Khoa","Ho Chi Minh City",Vietnam,10.7728319092,106.658478581
 238813302847655,"OSCAR SAIGON HOTEL","Ho Chi Minh City",Vietnam,10.7747803,106.7033081
-377236419048073,"Làng Trẻ Em Sos Gò Vấp","Ho Chi Minh City",Vietnam,10.8393612142,106.646259894
-216650281863123,"Khu Vui Chơi Châu Âu Vietopia","Ho Chi Minh City",Vietnam,10.7419624266,106.694950117
-473356726052058,"Ho Chi Minh City, Saigon Vietnam","Ho Chi Minh City",Vietnam,10.7963189477,106.673093448
+649211478504730,"Tư vấn du học UniLink","Ho Chi Minh City",Vietnam,10.7912483066,106.697138429
+398836860163788,"- Q3. TP.HCM","Ho Chi Minh City",Vietnam,10.7840358602,106.67597322
 118131004909879,"U-Tac","Cape Town",South Africa,-33.593796014,18.5258448326
 349988191806314,"Galaxy Nguyễn Du","Ho Chi Minh City",Vietnam,10.7734472833,106.694241602
-252243771463613,"Hội thích sáng tạo cùng Đồ họa","Ho Chi Minh City",Vietnam,10.7632256,106.6759262
-446098952104001,"Hồ Bơi Khu Nam Long, Quận 7","Ho Chi Minh City",Vietnam,10.7428741897,106.735195963
-514367848684483,"TPHCM","Ho Chi Minh City",Vietnam,10.8081194001,106.702867081
+252243771463613,"Hội thích sáng tạo cùng Đồ họa","Ho Chi Minh City",Vietnam,10.7632251,106.6759271
+489079971131936,"Đại Giảng Đường - ĐHYD TPHCM","Ho Chi Minh City",Vietnam,10.7540403,106.66354827
+377236419048073,"Làng Trẻ Em Sos Gò Vấp","Ho Chi Minh City",Vietnam,10.8393612142,106.646259894
+433364086802568,"Glow Skybar","Ho Chi Minh City",Vietnam,10.7768832155,106.698179085
+514367848684483,"TPHCM","Ho Chi Minh City",Vietnam,10.808122981,106.702842041
 1456517937932546,"Trường Trung Cấp Kỹ Thuật Nông Nghiệp Tphcm","Ho Chi Minh City",Vietnam,10.75,106.66667
 711464082266450,"Yo Yo Beer Garden","Ho Chi Minh City",Vietnam,10.7713804,106.6887207
 260383744081159,"BakerLand - Nguyên liệu, dụng cụ, khóa học làm bánh","Ho Chi Minh City",Vietnam,,
 317670801702352,"Pullman Saigon Centre","Ho Chi Minh City",Vietnam,10.7643069298,106.691862003
 230288990428206,"Công Viên Lê Văn Tám","Ho Chi Minh City",Vietnam,10.7877646694,106.693589373
-355049604560577,"Jaspas Wine & Grill","Ho Chi Minh City, Vietnam",,10.7781328661,106.703815834
 229038657220497,"Saigon International Comedy","Ho Chi Minh City",Vietnam,10.7729719937,106.703252792
-378468385599733,"Cargo Bar","Ho Chi Minh City",Vietnam,10.7661220001,106.70758258
-530886563718827,"Eastin Grand Hotel Saigon","Ho Chi Minh City",Vietnam,10.769484319,106.682600815
 213612628800816,"Phạm Văn Bạch - f15 - Tân Bình","Ho Chi Minh City",Vietnam,10.8197029793,106.637864103
 185819678145941,"Phan Dinh Phung Stadium","Ho Chi Minh City",Vietnam,10.7814567841,106.694109791
 174416109399619,"Dumien Garden Cafe - 7 Phan Van Tri, Go Vap","Ho Chi Minh City",Vietnam,10.8318167318,106.674237382
-1640749322847845,"Trung tâm Hiến Máu Nhân Đạo Tp.HCM","Ho Chi Minh City",Vietnam,10.776093,106.6534367
-317465288268433,"Tp.Ho Chi Minh, Vietnam","Ap My Tho",Vietnam,10.7905853323,106.686919955
 525624427497892,"Club 39 Kumho","Ho Chi Minh City",Vietnam,10.7809041056,106.700211612
+1457253097844155,"Thảm lót sàn Hưng Thịnh 0903424703 TP.HCM","Ho Chi Minh City",Vietnam,10.7850428,106.6506958
 437734699582012,"Vietnam News Agency (TTXVN) Rep. Office in HCMC","Ho Chi Minh City",Vietnam,10.7782421,106.6935425
-317730284938659,"Vietsoft Co.,Ltd","Ho Chi Minh City",Vietnam,10.806077824,106.662134213
-258001300956878,"Khu Du Lịch Văn Thánh  - Bình Thạnh","Ho Chi Minh City",Vietnam,10.7976905455,106.715784437
+182926888574694,"CLB HĐXH Khát Vọng Việt","Ho Chi Minh City",Vietnam,10.8448903323,106.757373583
+590291354440526,"Nha Hang Tiec Cuoi Loan Le Place -tp Hcm","Ho Chi Minh City",Vietnam,10.82917483,106.6317992
+268387536637911,"HUTECH - Đại học Công nghệ Tp.HCM","Ho Chi Minh City",Vietnam,10.8017767421,106.715066273
+748665778612881,"Nhà Xuất Bản Trẻ","Ho Chi Minh City",Vietnam,10.7835903,106.684227
+139069359454848,"Rex Hotel","Ho Chi Minh City",Vietnam,10.7758333333,106.7015
+473356726052058,"Ho Chi Minh City, Saigon Vietnam","Ho Chi Minh City",Vietnam,10.7963189477,106.673093448
+548193241868218,"Mi Lua","Ho Chi Minh City",Vietnam,10.7822934685,106.705367236
 1385792164976565,"Fatal music club","Prague",Czech Republic,50.0859574097,14.4556187419
+337993396224046,"Galaxy Cine Nguyen Du","Ho Chi Minh City",Vietnam,10.7730503,106.693573
 231748270189907,"USSH","Ho Chi Minh City",Vietnam,10.7858592809,106.702832025
 358603314231681,"ĐH Công Nghiệp TP.HCM","Ho Chi Minh City",Vietnam,10.8210297,106.6871719
 433753466679157,"Stag - Strathmore Theatrical Arts Group","Melbourne",Australia,-37.7343230049,144.919515628
 565080926889738,"Khoa KT Xây Dựng ĐH Bách Khoa Tp.HCM","Ho Chi Minh City",Vietnam,10.7711945,106.6580658
+113765112091581,"Angel In Us Phú Mỹ Hưng","Ho Chi Minh City",Vietnam,10.721595303,106.71171079
+221295881261517,"Cafe Bar KESERA","Ho Chi Minh City",Vietnam,10.7803255658,106.704117269
+582263571809924,"Gia Đình Tâm Thiện Bụi Đời 283/9 Phạm Ngũ Lão, Q.1","Ho Chi Minh City",Vietnam,10.8049818,106.6611395
 297719243598109,"Le Bouchon De Saigon (Official )","Ho Chi Minh City",Vietnam,10.7803984,106.7035141
 638361402937107,"Think in a Box","Ho Chi Minh City",Vietnam,10.7628403,106.6936188
 435456619964806,"DU LỊCH SEN VIỆT","Ho Chi Minh City",Vietnam,10.7713666,106.6509649
-1408649852768903,"Khánh Casa Bùi Viện - Đề Thám.","Ho Chi Minh City",Vietnam,10.767460309,106.694014734
+671967472906440,"f.Club Saigon","Ho Chi Minh City",Vietnam,10.77105,106.6930299
+200002816870335,"Trường Đh Lao Động Xã Hội Cs2","Ho Chi Minh City",Vietnam,10.85557725,106.62433125
 199187816899402,"Jolie Siam","Ho Chi Minh City",Vietnam,10.7890902,106.6987991
-1103479963014174,"Trung tâm đào tạo, huấn luyện Yoga & Thiền Trái Tim Vàng","Ho Chi Minh City",Vietnam,10.8288632533,106.705198493
 145709058909375,"TP. Hồ Chí Minh","Ho Chi Minh City",Vietnam,10.8410873869,106.599819359
 276029572491711,"Hobart Sai Gon Trading Co Pty Ltd","Hobart",Australia,-42.8759108211,147.383411881
 517202854971553,"Broma: Not a Bar","Ho Chi Minh City",Vietnam,10.7728212613,106.704739668
-167069710013726,"Cung Văn hóa Lao Động Tp.Hồ Chí Minh","Ho Chi Minh City",Vietnam,10.7761369033,106.692534839
+1408649852768903,"Khánh Casa Bùi Viện - Đề Thám.","Ho Chi Minh City",Vietnam,10.767460309,106.694014734
 216123665077401,"S.E.C.C.","Ho Chi Minh City",Vietnam,10.7307448149,106.721807718
 536928636386470,"Trường THCS Nguyễn Gia Thiều","Ho Chi Minh City",Vietnam,10.7801914915,106.655264048
-112039852155607,"TPHCM","Ho Chi Minh City",Vietnam,10.7694444444,106.681944444
+141797515863905,"TiTan Education","Ho Chi Minh City",Vietnam,10.78843,106.69572
 118839014885300,"iziEnglish Community","Ho Chi Minh City",Vietnam,10.8033219804,106.684413988
 190849994275218,"Hội Quán Âm Nhạc LẠC CẦM","Westminster",United States,33.7441216,-117.9678192
 151651061649477,"Viện Trao Đổi Văn Hoá Với Pháp- Idecaf","Ho Chi Minh City",Vietnam,10.7799597,106.7036972
-153582434683235,"Saigon Express","Berkeley",United States,37.8714409,-122.2674179
-870761616278498,"Nhà Hàng Thiên Hồng Q.5","Ho Chi Minh City",Vietnam,10.766841865,106.70070527
 385647901623128,"Outcast's Farmers Market","Ho Chi Minh City",Vietnam,10.8168742633,106.729841828
-187999364551969,"Molinari Cafe","Ho Chi Minh City",Vietnam,10.7867476767,106.70509727
-544156325612502,"Nhà Thờ Đức Bà - Sài Gòn","Ho Chi Minh City",Vietnam,10.7794923339,106.699295785
-435091789842653,"126 Nguyễn Thị Minh Khai","Ho Chi Minh City",Vietnam,10.7708404167,106.69001584
-861852637225054,"Suzanne Vian Saigon Yoga","Ho Chi Minh City",Vietnam,10.80534,106.73616
+317730284938659,"Vietsoft Co.,Ltd","Ho Chi Minh City",Vietnam,10.806077824,106.662134213
+243583195845164,"Bến xe Miền Đông - Tp.HCM","Ho Chi Minh City",Vietnam,10.8148027014,106.711164638
 1614198688826410,"TAPS","Ho Chi Minh City",Vietnam,10.7827902,106.6828308
 868257609871371,"Đào Tạo PDMS Tại Việt Nam","Ho Chi Minh City",Vietnam,10.8036156,106.7210388
-362827117178511,"Toà Nhà Thanh Niên","Ho Chi Minh City",Vietnam,10.7595058273,106.690274247
-141797515863905,"TiTan Education","Ho Chi Minh City",Vietnam,10.7883478254,106.695709491
+112039852155607,"TPHCM","Ho Chi Minh City",Vietnam,10.7694444444,106.681944444
 796781203682173,"Queen Hall So 5 Nguyen Tat Thanh P.12 Q.4","Ho Chi Minh City",Vietnam,10.7670037643,106.70736003
+355049604560577,"Jaspas Wine & Grill","Ho Chi Minh City, Vietnam",,10.7781361222,106.703800957
+307122932704695,"Trung Tâm Văn Hoá Quận 5","Ho Chi Minh City",Vietnam,10.7521834725,106.668393437
+428929010471009,"Universehotel 549 Trần Hưng Đạo, Phường Cầu Kho, Quận 1, Tp Hcm","Ho Chi Minh City",Vietnam,10.7572603,106.6861496
+378468385599733,"Cargo Bar","Ho Chi Minh City",Vietnam,10.7661220001,106.70758258
+530886563718827,"Eastin Grand Hotel Saigon","Ho Chi Minh City",Vietnam,10.769484319,106.682600815
+324534777719705,"The Racha Room","Ho Chi Minh City",Vietnam,10.7760077,106.705162
 298786433626925,"3A Station","Ho Chi Minh City",Vietnam,10.7806563719,106.706633408
-1545729262363418,"Uprising Saigon","Ho Chi Minh City",Vietnam,10.7903566,106.67379
-778583602252405,"Khai Sáng Tuổi Trẻ","Ho Chi Minh City",Vietnam,10.8488503,106.7737198
-149626291741409,"La Habana","Ho Chi Minh City",Vietnam,10.7787399,106.7048264
-442177372528700,"Cargo Event Space","Ho Chi Minh City",Vietnam,10.766129429,106.707632019
-853599918021099,"CEO Coaching","Ho Chi Minh City",Vietnam,10.77563,106.6883392
-111112242381308,"Stevbros Training & Consultancy","Ho Chi Minh City",Vietnam,10.7818051727,106.696859438
+1640749322847845,"Trung tâm Hiến Máu Nhân Đạo Tp.HCM","Ho Chi Minh City",Vietnam,10.776093,106.6534367
+317465288268433,"Tp.Ho Chi Minh, Vietnam","Ap My Tho",Vietnam,10.7905853323,106.686919955
+361137537382705,"The Saigon Cafe","Buffalo",United States,42.9111786,-78.8774796
 278399152281803,"Chợ SALE","Ho Chi Minh City",Vietnam,10.787859,106.696373
 123741664367658,"CLB Doanh Nhan 2030 | Saigon Times Club","Ho Chi Minh City",Vietnam,10.7695704,106.7017136
-1643115849251235,"LỜI NÓI GÓI VÀNG","Ho Chi Minh City",Vietnam,10.7908001,106.6996613
-120462351299084,"Wheel House Cafe","Ho Chi Minh City",Vietnam,10.7981524487,106.669138808
+435091789842653,"126 Nguyễn Thị Minh Khai","Ho Chi Minh City",Vietnam,10.75820419,106.65746105
 92055404101,"Caravelle Saigon","Ho Chi Minh City",Vietnam,10.7762613,106.7034607
 1467607376868500,"Hotel Saigon Morin Hue","Hue",Vietnam,16.4666206761,107.590145589
-196657367149385,"Lotte Legend Hotel Saigon","Ho Chi Minh City",Vietnam,10.7787712876,106.706362643
+149626291741409,"La Habana","Ho Chi Minh City",Vietnam,10.7787399,106.7048264
 204411033069554,"AEON MALL VIET NAM","Ho Chi Minh City",Vietnam,10.8015554285,106.61765917
-397229963643814,"Trung Tâm Xúc Tiến Học Bổng Du Học ALT","Ho Chi Minh City",Vietnam,10.802967617,106.701676685
+258001300956878,"Khu Du Lịch Văn Thánh","Ho Chi Minh City",Vietnam,10.7976905455,106.715784437
 1436892619887339,"The Cube Bar Saigon","Ho Chi Minh City",Vietnam,10.7799344254,106.703047287
 112230675455131,"Coronel Suárez","Coronel Suárez",Argentina,-37.4667,-61.9167
 500283233387474,"Diamond Palace - 15A, Ho Van Hue, Phu Nhuan","Ho Chi Minh City",Vietnam,10.8009071,106.6754532
-178903582246728,"Lotus University","Ho Chi Minh City",Vietnam,10.8068342917,106.66520834
 184177888302929,"VYE (Viet Youth Entrepreneurs)","Ho Chi Minh City",Vietnam,10.7580931412,106.684746582
+1405440006337216,"Saigon Artbook","Ho Chi Minh City",Vietnam,10.7929997,106.7110663
 195128153888261,"Dancenter","Ho Chi Minh City",Vietnam,10.8023767952,106.737322462
-270826963014454,"Le Meridien Saigon","Ho Chi Minh City",Vietnam,10.7797691677,106.707283174
+165419643537532,"The American Center - Ho Chi Minh City","Ho Chi Minh City",Vietnam,10.7807903,106.6988678
+436241839868827,"ZFit","Ho Chi Minh City",Vietnam,10.7769876102,106.687813997
 433202520182606,"Ocewa 19 Hồ Văn Huê, Phú Nhuận Tphcm","Ho Chi Minh City",Vietnam,10.8011081375,106.676087423
 271643436292509,"Blanchy's Tash","Ho Chi Minh City",Vietnam,10.7773297608,106.70410661
 144585465710375,"Air Lounge Coffee","Ho Chi Minh City",Vietnam,10.72319156,106.71544461
 5683199962,"Starlight","Waterloo",Canada,43.4664917,-80.5230637
-349129288484457,"HCM City","Ho Chi Minh City",Vietnam,10.7468225675,106.601658634
-124753470968942,"Chibooks","Ho Chi Minh City",Vietnam,10.7694,106.682
+270826963014454,"Le Meridien Saigon","Ho Chi Minh City",Vietnam,10.7797691677,106.707283174
 717707478248567,"Sân Golf Tân Sơn Nhất - Tan Son Nhat Golf Course","Ho Chi Minh City",Vietnam,10.8336416355,106.650381048
 125275087517296,"InterContinental Asiana Saigon","Ho Chi Minh City",Vietnam,10.7808556985,106.700600446
-601523263204450,"Nvh Thanh Niên","Ho Chi Minh City",Vietnam,10.7816081662,106.69771298
-384909714926169,"My Sweet Home","Ho Chi Minh City",Vietnam,,
-190365210983587,"HCMC","Ho Chi Minh City",Vietnam,10.767565579,106.692597103
-165419643537532,"The American Center - Ho Chi Minh City","Ho Chi Minh City",Vietnam,10.7807903,106.6988678
-202805849768048,"Cinebox 212","Ho Chi Minh City",Vietnam,10.7805499698,106.682568766
+167069710013726,"Cung Văn hóa Lao Động Tp.Hồ Chí Minh","Ho Chi Minh City",Vietnam,10.7761369033,106.692534839
+601523263204450,"Nvh Thanh Niên","Ho Chi Minh City",Vietnam,10.78216159,106.696613851
+1103479963014174,"Trung tâm đào tạo, huấn luyện Yoga & Thiền Trái Tim Vàng","Ho Chi Minh City",Vietnam,10.8288632533,106.705198493
+853599918021099,"CEO Coaching","Ho Chi Minh City",Vietnam,10.77563,106.6883392
 337636386439957,"Toà Nhà Thông Tấn Xã Việt Nam","Ho Chi Minh City",Vietnam,10.75,106.66667
-134329226691354,"VCI - Vietnam Coaching Institute","Ho Chi Minh City",Vietnam,10.75,106.66667
-307122932704695,"Trung Tâm Văn Hoá Quận 5","Ho Chi Minh City",Vietnam,10.7521834725,106.668393437
-906159529455238,"Brand Digital Việt Nam","Ho Chi Minh City",Vietnam,10.7990656,106.6881027
-735278049831065,"Cựu Học Sinh trường THPT Đầm Dơi","Ho Chi Minh City",Vietnam,10.7694,106.6819
-1395197027386441,"Nguồnmỹphẩmhànquốc.vn","Ho Chi Minh City",Vietnam,10.800025,106.6523951
-1405440006337216,"Saigon Artbook","Ho Chi Minh City",Vietnam,10.7929997,106.7110663
+870761616278498,"Nhà Hàng Thiên Hồng Q.5","Ho Chi Minh City",Vietnam,10.7483405,106.656318
+442177372528700,"Cargo Event Space","Ho Chi Minh City",Vietnam,10.7661594229,106.707650615
+187999364551969,"Molinari Cafe","Ho Chi Minh City",Vietnam,10.7867476767,106.70509727
+544156325612502,"Nhà Thờ Đức Bà - Sài Gòn","Ho Chi Minh City",Vietnam,10.7794923339,106.699295785
+861852637225054,"Suzanne Vian Saigon Yoga","Ho Chi Minh City",Vietnam,10.80534,106.73616
+397229963643814,"Trung Tâm Xúc Tiến Học Bổng Du Học ALT","Ho Chi Minh City",Vietnam,10.802967617,106.701676685
+1574488312832021,"Công Ty TNHH Phát Triển Công Nghệ Vina View","Vung Tau",Vietnam,10.3857965,107.110817
+362827117178511,"Toà Nhà Thanh Niên","Ho Chi Minh City",Vietnam,10.7595058273,106.690274247
 678674198912269,"Ho Chi Minh City Medicine and Pharmacy University","Ho Chi Minh City",Vietnam,10.7548972622,106.662824061
 153760391414594,"Electronic Dance Music Việt Nam","Ho Chi Minh City",Vietnam,10.7694,106.682
-187275621329532,"Sofitel Saigon Plaza","Ho Chi Minh City",Vietnam,10.7844439,106.7025299
-1468763586725231,"Liberty Central Saigon Citypoint","Ho Chi Minh City",Vietnam,10.7747448114,106.700772537
-135180599990150,"Start-Up Coaching","Ho Chi Minh City",Vietnam,10.8032205455,106.692728837
-143509855729860,"Hair Salon Nguyễn Hưng","Ho Chi Minh City",Vietnam,10.7832097639,106.696632476
+349129288484457,"HCM City","Ho Chi Minh City",Vietnam,10.7468225675,106.601658634
 505682112822165,"TRANSVIET Travel","Ho Chi Minh City",Vietnam,10.7800240026,106.694745857
 1508495006062711,"Line Up Bar & Grill","Phan Thiet",Vietnam,10.9547677044,108.230162239
+1545729262363418,"Uprising Saigon","Ho Chi Minh City",Vietnam,10.7903566,106.67379
+340240609451430,"Saigon Soul Pool Party","Ho Chi Minh City",Vietnam,10.7711897,106.6943283
 688491164534675,"Petit Four Cafe","Ho Chi Minh City",Vietnam,10.7866926057,106.699901365
+432866706763125,"Decibel Cafe","Ho Chi Minh City",Vietnam,10.7946936263,106.674520969
+703738973060626,"Liên Minh Bàn Tròn - Alliance of the Round Boardgame Club","Ho Chi Minh City",Vietnam,10.7968588,106.6795807
+111112242381308,"Stevbros Training & Consultancy","Ho Chi Minh City",Vietnam,10.7818051727,106.696859438
+445045882197157,"Moto Saigon","Ho Chi Minh City",Vietnam,10.743907501,106.708963072
+1643115849251235,"LỜI NÓI GÓI VÀNG","Ho Chi Minh City",Vietnam,10.7908001,106.6996613
+120462351299084,"Wheel House Cafe","Ho Chi Minh City",Vietnam,10.7981524487,106.669138808
+228591153918000,"TT Triễn Lãm S.E.C.C Q7","Ho Chi Minh City",Vietnam,10.7308161187,106.721994323
+202805849768048,"Cinebox 212","Ho Chi Minh City",Vietnam,10.7805499698,106.682568766
+196657367149385,"Lotte Legend Hotel Saigon","Ho Chi Minh City",Vietnam,10.7787712876,106.706362643
+1468763586725231,"Liberty Central Saigon Citypoint","Ho Chi Minh City",Vietnam,10.7747448114,106.700772537
+178903582246728,"Lotus University","Ho Chi Minh City",Vietnam,10.8068342917,106.66520834
+108153009209321,"Vietnam","",,16.1666666667,107.833333333
+1409114322696683,"Nhà ga 3A - Station 3A","Ho Chi Minh City",Vietnam,10.7799735221,106.706825298
+416448301787076,"Nhà Hàng White Palce","Ho Chi Minh City",Vietnam,10.7451714837,106.6478339
+1447063515567486,"Saigon Urban Flea Market","Ho Chi Minh City",Vietnam,10.8169383244,106.729935094
+1413619728872697,"Trung Nguyên 264 A Nam Kỳ Khởi Nghĩa","Ho Chi Minh City",Vietnam,10.78722,106.68678
+269264116509402,"Chua Hoang Phap Hoc Mon","Ho Chi Minh City",Vietnam,10.7782297,106.7032776
+1481119612111750,"Fablab Saigon","Ho Chi Minh City",Vietnam,10.8063373457,106.687796254
+317981921665752,"Bệnh Viện Điều Dưỡng Và Phục Hồi Chức Năng Q8","Ho Chi Minh City",Vietnam,10.7413186296,106.685980208
+142688579261554,"Miss Saigon - Musical","London",United Kingdom,51.5137014723,-0.130936350895
+720395531439849,"Grace","Ho Chi Minh City",Vietnam,10.7903776,106.7098236
+106929529345661,"Trường Đại Học Sư Phạm Kỹ Thuật Tp.HCM","Ho Chi Minh City",Vietnam,10.8502078624,106.771059036
+1455084748131223,"Tuyển sinh ĐH Ngân hàng Tp.HCM","Ho Chi Minh City",Vietnam,10.7700796,106.7038269
+143509855729860,"Hair Salon Nguyễn Hưng","Ho Chi Minh City",Vietnam,10.7832097639,106.696632476
+124753470968942,"Chibooks","Ho Chi Minh City",Vietnam,10.7694,106.682
+778583602252405,"Khai Sáng Tuổi Trẻ","Ho Chi Minh City",Vietnam,10.8488503,106.7737198
+132314046804958,"Saigon Zoo and Botanical Gardens","Ho Chi Minh City, Vietnam",,10.7880555556,106.704722222
+388026887917895,"Khu 5 Tang","Vung Tau",Vietnam,10.3619711475,107.083736951
+810863165651660,"Initial","Ho Chi Minh City",Vietnam,10.7297622497,106.724775071
+1492767921044454,"Tỏi Đen IAmV","Ho Chi Minh City",Vietnam,10.75287,106.67204
+109543539065467,"Saigon South International School","Ho Chi Minh City",Vietnam,10.7238,106.709
+906159529455238,"Brand Media Việt Nam","Ho Chi Minh City",Vietnam,10.7990656,106.6881027
+1515181048737786,"Hotel Majestic","Ho Chi Minh City",Vietnam,10.7732785961,106.706026343
+306697212759064,"Quan Binh Thanh, TP Ho Chi Minh","Ho Chi Minh City",Vietnam,10.7939266396,106.70818895
+735278049831065,"Cựu Học Sinh trường THPT Đầm Dơi","Ho Chi Minh City",Vietnam,10.7694,106.6819
+648289285221337,"Hội Trường Lớn Đại Học Ngân Hàng Tp HCM","Ho Chi Minh City",Vietnam,10.8570482942,106.762406045
+1395197027386441,"Nguồnmỹphẩmhànquốc.vn","Ho Chi Minh City",Vietnam,10.800025,106.6523951
+576604065803262,"Lucy's Dream Art Studio HCMC","Ho Chi Minh City",Vietnam,10.77478,106.7009099
+452984798116548,"Aviation Heritage Museum of Western Australia","Perth",Australia,-32.0493,115.8587
+645533632163204,"Chợ Bến Thành","Ho Chi Minh City",Vietnam,10.7800230013,106.701364517
+1427089310847083,"Vệ sinh laptop uy tín tại TP.HCM - Capcuulaptop.com","Ho Chi Minh City",Vietnam,10.7611465,106.6650162
+187275621329532,"Sofitel Saigon Plaza","Ho Chi Minh City",Vietnam,10.7844439,106.7025299
+135180599990150,"Start-Up Coaching","Ho Chi Minh City",Vietnam,10.8032205455,106.692728837
+1011385472234811,"Central Park Saigon","Ho Chi Minh City",Vietnam,10.7916555,106.7183914
+479000735570737,"Vietnam Chamber of Commerce and Industry VCCI HCMC Branch","Ho Chi Minh City",Vietnam,10.7827902,106.6870804
+734229800028524,"Con Đức Mẹ Gia Định - TPHCM","Ho Chi Minh City",Vietnam,10.7694,106.682
+258711617660346,"Sonus Vietnam - American English pronunciation and speaking training center","Ho Chi Minh City",Vietnam,10.7887602,106.7035599
+356080287781726,"Da Lat, Lam Dong","Ho Chi Minh City",Vietnam,10.749546998,106.701066328
+781515808571013,"Shrine - Clubhouse","Ho Chi Minh City",Vietnam,10.7734222,106.7016525
 223806474368871,"Trung tâm Hội chợ triển lãm Tân Bình","Ho Chi Minh City",Vietnam,10.7955907902,106.654821218
+166136190070431,"ERC Institute Vietnam","Ho Chi Minh City",Vietnam,10.7940111,106.6806717
 110347962389824,"Công Giáo","Ho Chi Minh City",Vietnam,,
 723038757840278,"The Leadership Excellence Journey","Ho Chi Minh City",Vietnam,10.7741203,106.7059784
 483039068524727,"Saigon Animal","Ho Chi Minh City",Vietnam,10.7694,106.682
 1627940487422608,"A 2 Z English","Ho Chi Minh City",Vietnam,10.7813509752,106.669800282
 545755088834198,"The Canadian International School Vietnam","Ho Chi Minh City",Vietnam,10.7148406251,106.729465331
 194381503945418,"Ho Chi Minh City","",,10.7768888889,106.700805556
+322177604545206,"Trung Tâm Triển Lãm Quốc Tế Hoàng Văn Thụ","Ho Chi Minh City",Vietnam,10.795663625,106.654713825
+559400734076609,"CLB Thanh niên Nam Định tại Tp.HCM","Ho Chi Minh City",Vietnam,10.7733541811,106.698238398
 169430696452177,"Hennepin County Medical Center","Minneapolis",United States,44.9719042621,-93.2617865862
-103782472994282,"Ton Duc Thang University","",,10.792438,106.711407
+103782472994282,"Ton Duc Thang University","Ho Chi Minh City",Vietnam,10.792438,106.711407
+111623748849526,"Hotel Equatorial Ho Chi Minh City","Ho Chi Minh City",Vietnam,10.763370132,106.67917192
+1567462886820279,"ActionCoach Vietnam","Ho Chi Minh City",Vietnam,10.75,106.66667
 294331133924741,"Cơ Đốc Phục Lâm - Cộng Đồng","Ho Chi Minh City",Vietnam,10.79928959,106.680047352
 337423376273783,"NTĐ Tân Bình","Ho Chi Minh City",Vietnam,10.7946298504,106.653640894
-1409114322696683,"Nhà ga 3A - Station 3A","Ho Chi Minh City",Vietnam,10.7799735221,106.706825298
+336758589817497,"Số 217 Hồng Bàng - Quận 5 - TPHCM","Ho Chi Minh City",Vietnam,10.7154715,106.6313525
 162845970541826,"Phú Nhuận Plaza 82 Trần Huy Liệu P.12 Q. Pn","Ho Chi Minh City",Vietnam,10.7945537631,106.677846192
-142688579261554,"Miss Saigon - Musical","London",United Kingdom,51.5135841211,-0.130647256952
-1413619728872697,"Trung Nguyên 264 A Nam Kỳ Khởi Nghĩa","Ho Chi Minh City",Vietnam,10.78722,106.6867828
+140986189290781,"Caravelle Hotel","Ho Chi Minh City",Vietnam,10.7764060173,106.703231615
+581437731883091,"Ho Chi Minh City Museum of Fine Arts","Ho Chi Minh City",Vietnam,10.7694444444,106.7
+882869018459713,"Omg Rooftop bar","Ho Chi Minh City",Vietnam,10.7717603457,106.697480147
 375413635869201,"Emergency Room","Ho Chi Minh City",Vietnam,10.7722773711,106.70199855
+125383274205415,"VietClimb","Hanoi",Vietnam,21.0557790774,105.841373104
 1499285950349814,"District 7, Ho Chi Minh City","Ho Chi Minh City",Vietnam,10.7386111111,106.726388889
-269264116509402,"Chua Hoang Phap Hoc Mon","Ho Chi Minh City",Vietnam,10.7782297,106.7032776
-1481119612111750,"Fablab Saigon","Ho Chi Minh City",Vietnam,10.8063373457,106.687796254
-317981921665752,"Bệnh Viện Điều Dưỡng Và Phục Hồi Chức Năng Q8","Ho Chi Minh City",Vietnam,10.7413186296,106.685980208
-1447063515567486,"Saigon Urban Flea Market","Ho Chi Minh City",Vietnam,10.8169383244,106.729935094
+814899545302373,"Baoviet Hochiminh City","Ho Chi Minh City",Vietnam,10.779335,106.7043369
+140941392666938,"Peppermill Concert Hall","West Wendover",United States,40.7369822467,-114.051697268
 172692759466349,"Sinh Viên Đa Minh","Ho Chi Minh City",Vietnam,10.7936989815,106.669221519
 265578486814449,"Lý Club Saigon","Ho Chi Minh City",Vietnam,10.7810602,106.6933136
-720395531439849,"Grace","Ho Chi Minh City",Vietnam,10.7903776,106.7098236
 278579478871071,"Chùa Thiện Mỹ (Cao Đạt Q.5)","Ho Chi Minh City",Vietnam,10.7538423943,106.682845279
+534940089884397,"Nhà Thờ Tân Phước","Ho Chi Minh City",Vietnam,10.7739725,106.6529465
 210775052367193,"VTC Academy HCM","Ho Chi Minh City",Vietnam,10.8011444172,106.657506067
 183447998475415,"Erato School of Music & Performing Arts","Ho Chi Minh City",Vietnam,10.7277735388,106.719331297
-340240609451430,"Saigon Soul Pool Party","Ho Chi Minh City",Vietnam,10.7711897,106.6943283
-581437731883091,"Ho Chi Minh City Museum of Fine Arts","Ho Chi Minh City",Vietnam,10.7694444444,106.7
-388026887917895,"Khu 5 Tang","Vung Tau",Vietnam,10.3609018389,107.084886183
-646682278708019,"Bò Cạp Vàng","Ho Chi Minh City",Vietnam,10.6602045422,106.856659702
+339679246202032,"SAIGON RANGER","Ho Chi Minh City",Vietnam,10.7776982607,106.704811907
+610122589001928,"Sai Gon","Ho Chi Minh City",Vietnam,10.7688266923,106.680871882
+646682278708019,"Bò Cạp Vàng","Ho Chi Minh City",Vietnam,10.66017329,106.85652312
 391342620988763,"Tại Dinh Độc Lập Ho Chi Minh City","Ho Chi Minh City",Vietnam,10.75,106.66667
 499949080182269,"Citihub Coworking Space","Ho Chi Minh City",Vietnam,10.79026,106.69943
-1492767921044454,"Tỏi Đen IAmV","Ho Chi Minh City",Vietnam,10.75287,106.67204
 907887549293028,"Smartcom HCMC","Ho Chi Minh City",Vietnam,10.7606697,106.6729813
-131730263540768,"Chieftain Hotel","Inverness",United Kingdom,57.4820002476,-4.20977895961
-810863165651660,"Initial","Ho Chi Minh City",Vietnam,10.7297622497,106.724775071
-294364184086131,"Muaban.net - Báo Mua&Bán","Ho Chi Minh City",Vietnam,10.7338546799,106.709876533
-306697212759064,"Quan Binh Thanh, TP Ho Chi Minh","Ho Chi Minh City",Vietnam,10.7939266396,106.70818895
-416448301787076,"Nhà Hàng White Palce","Ho Chi Minh City",Vietnam,10.7451714837,106.6478339
+131730263540768,"Chieftain Hotel","Inverness",United Kingdom,57.481976703,-4.20983318125
+1584171375183428,"Le Comptoir de Saigon","Ho Chi Minh City",Vietnam,10.7878704,106.7029114
 1377240259158475,"Khu Du Lịch Bình Quới Thanh Đa","Ho Chi Minh City",Vietnam,10.7797675056,106.663829586
-576604065803262,"Lucy's Dream Art Studio HCMC","Ho Chi Minh City",Vietnam,10.75,106.66667
-452984798116548,"Aviation Heritage Museum of Western Australia","Perth",Australia,-32.0493,115.8587
-1427089310847083,"Vệ sinh laptop uy tín tại TP.HCM - Capcuulaptop.com","Ho Chi Minh City",Vietnam,10.7611465,106.6650162
-1515181048737786,"Hotel Majestic","Ho Chi Minh City",Vietnam,10.7732785961,106.706026343
-1011385472234811,"Central Park Saigon","Ho Chi Minh City",Vietnam,10.7916555,106.7183914
-479000735570737,"Vietnam Chamber of Commerce and Industry VCCI HCMC Branch","Ho Chi Minh City",Vietnam,10.7827902,106.6870804
-734229800028524,"Con Đức Mẹ Gia Định - TPHCM","Ho Chi Minh City",Vietnam,10.7694,106.682
-356080287781726,"Da Lat, Lam Dong","Ho Chi Minh City",Vietnam,10.749546998,106.701066328
+479634595447822,"Saigon, Vietnam","Siem Reap",Cambodia,13.3591398,103.861069
+1658678501010514,"La Canalla","Ho Chi Minh City",Vietnam,10.7713156,106.7024765
+426326400822505,"Republic","Ho Chi Minh City",Vietnam,10.7753454718,106.704014251
+269197699777163,"Fulbright Economics Teaching Program","Ho Chi Minh City",Vietnam,10.7915401,106.6957092
+112367088780789,"Nairn","Nairn",United Kingdom,57.5833,-3.86667
+891580737523835,"Soul Burger","Ho Chi Minh City",Vietnam,10.7723933085,106.698908646
+646539845394939,"Long Island","Ho Chi Minh City",Vietnam,10.79689121,106.668825305
 189993341089887,"Nhà Văn Hoá Thanh Niên","Ho Chi Minh City",Vietnam,10.7815676,106.6972961
+297528527079375,"Tăng Nhơn Phú B,Q9,TPHCM","Ho Chi Minh City",Vietnam,10.8383386415,106.775058677
+937287386329125,"Mundo Lingo Vietnam","Ho Chi Minh City",Vietnam,10.7802095,106.7031937
 111958868878272,"Sân vận động Hoa Lư","Ho Chi Minh City, Vietnam",,10.7875403688,106.701599547
 428543550518998,"Birding Vietnam  - Wildtour Co., LTD","Ho Chi Minh City",Vietnam,10.7915001,106.6986618
-426326400822505,"Republic","Ho Chi Minh City",Vietnam,10.7753454718,106.704014251
 522678764468384,"Hoa Sen University Nguyễn Văn Tráng","Ho Chi Minh City",Vietnam,10.7701492,106.6924667
 762990367072885,"Công Viên Lê Văn Tám","Ho Chi Minh City",Vietnam,10.7979137125,106.640890678
 272870317608,"Beirut Restaurant","Ho Chi Minh City",Vietnam,10.7781022463,106.703909371
-882869018459713,"Omg Rooftop bar","Ho Chi Minh City",Vietnam,10.7717603457,106.697480147
 103696243001853,"Monash University, Caulfield campus","Melbourne",Australia,-37.8769241318,145.044248149
 404022109749688,"Freeland","Ho Chi Minh City",Vietnam,10.7689151655,106.701429922
 1069832729712052,"Café-Restaurant Ho Chi Minh City","Ho Chi Minh City",Vietnam,10.7694492,106.6978455
-111623748849526,"Hotel Equatorial Ho Chi Minh City","Ho Chi Minh City",Vietnam,10.763370132,106.67917192
-1567462886820279,"ActionCoach Vietnam","Ho Chi Minh City",Vietnam,10.75,106.66667
-166136190070431,"ERC Institute Vietnam","Ho Chi Minh City",Vietnam,10.7940111,106.6806717
-336758589817497,"Số 217 Hồng Bàng - Quận 5 - TPHCM","Ho Chi Minh City",Vietnam,10.7154715,106.6313525
+411666182352304,"Fresh Origin Coffee","Ho Chi Minh City",Vietnam,10.7891259,106.6962035
+273458836080500,"Ban Tuyen Giao Trung Uong Tai Tphcm","Ho Chi Minh City",Vietnam,10.7812580746,106.692862082
+413116955422920,"Hoa Huong Duong Nguyen Tri Phuong","Ho Chi Minh City",Vietnam,10.7622675,106.6682246
 199166866801468,"Phú Quốc","Ho Chi Minh City",Vietnam,10.7769528807,106.684396047
 415194038576361,"Khach San Intercontinental","Ho Chi Minh City",Vietnam,21.06324963,105.908709253
-140986189290781,"Caravelle Hotel","Ho Chi Minh City",Vietnam,10.7764060173,106.703231615
-610122589001928,"Sai Gon","Ho Chi Minh City",Vietnam,10.7688266923,106.680871882
 347132461968531,"Novotel Saigon Centre Hotel","Ho Chi Minh City",Vietnam,10.7843752,106.6961517
-125383274205415,"VietClimb","Hanoi",Vietnam,21.0557790774,105.841373104
-140941392666938,"Peppermill Concert Hall","West Wendover",United States,40.7369822467,-114.051697268
-128218510567966,"Duxton Hotel Saigon","Ho Chi Minh City",Vietnam,10.7730331,106.7043381
+1456445677912747,"2dh.Beauty - Hair Spa & Skin Care","Ho Chi Minh City",Vietnam,10.7954955894,106.695990402
+128218510567966,"Duxton Hotel Saigon","Ho Chi Minh City",Vietnam,10.7730331,106.7043387
 350609055007769,"Thẩm mỹ công nghệ cao Diamond","Ho Chi Minh City",Vietnam,10.781836791,106.686205704
-258711617660346,"Sonus Vietnam - American English pronunciation and speaking training center","Ho Chi Minh City",Vietnam,10.7887602,106.7035599
-534940089884397,"Nhà Thờ Tân Phước","Ho Chi Minh City",Vietnam,10.7739725,106.6529465
-220557164642582,"Edward R. Murrow High School","Brooklyn",United States,40.6203918,-73.9592133
-147073801994956,"Vjcc-Hcmc","Ho Chi Minh City",Vietnam,10.8067537061,106.712781423
-339679246202032,"SAIGON RANGER","Ho Chi Minh City",Vietnam,10.7776982607,106.704811907
-781515808571013,"Shrine - Clubhouse","Ho Chi Minh City",Vietnam,10.7734222,106.7016525
-322177604545206,"Trung Tâm Triển Lãm Quốc Tế Hoàng Văn Thụ","Ho Chi Minh City",Vietnam,10.795663625,106.654713825
-1496389437357463,"D5ATTIC The CoWorking Space","Ho Chi Minh City",Vietnam,10.8063702,106.7116655
-365802470158277,"Quận Gò Vấp","",,10.75,106.66667
-1584171375183428,"Le Comptoir de Saigon","Ho Chi Minh City",Vietnam,10.7878704,106.7029114
-1667987533426769,"The Long","Ho Chi Minh City",Vietnam,10.773911031,106.704830963
 893151400721361,"Du học Khánh Nguyễn","Ho Chi Minh City",Vietnam,10.7893047,106.6367874
-188060294699390,"One Health","Ho Chi Minh City",Vietnam,10.8332484227,106.664057307
-1493957517501687,"GEM Center","Ho Chi Minh City",Vietnam,10.7916555704,106.70059578
-362052973821453,"Ân Nam coffee - Trương Định, Q.3","Ho Chi Minh City",Vietnam,10.7812055007,106.685714365
-123114917705909,"Lush Saigon","Ho Chi Minh City",Vietnam,10.7828532101,106.705311673
-411666182352304,"Fresh Origin Coffee","Ho Chi Minh City",Vietnam,10.7891259,106.6962035
-548170845231983,"MOB - BEER CLUB","Ho Chi Minh City",Vietnam,10.7791482215,106.695656776
-479634595447822,"Saigon, Vietnam","Siem Reap",Cambodia,13.3514805,103.8549669
-461369370560535,"Grand Hotel 8 Đồng Khởi- Quận 1 - Tp Hồ Chí Minh","Ho Chi Minh City",Vietnam,10.7900091467,106.643065962
-221666598211,"L'USINE: Fashion, Lifestyle, Cafe, Gallery","Ho Chi Minh City",Vietnam,10.7758460826,106.70316182
-413116955422920,"Hoa Huong Duong Nguyen Tri Phuong","Ho Chi Minh City",Vietnam,10.7622505825,106.668250386
-112367088780789,"Nairn","Nairn",United Kingdom,57.5833,-3.86667
-891580737523835,"Soul Burger","Ho Chi Minh City",Vietnam,10.7723933085,106.698908646
-154565006688,"Saigon-Star(The Nails And Beauty Spa)","Yishun",Singapore,1.43619,103.8364792
-306277426062124,"Đại Học Hoa Sen","Ho Chi Minh City",Vietnam,10.7701484953,106.692411007
-164676317201504,"Hoa Hoc Tro Garage Sale Sai Gon","Ho Chi Minh City",Vietnam,10.7896299,106.6748276
-1683428088537576,"NU Coffee & Ice Cream","Ho Chi Minh City",Vietnam,10.8129887471,106.67193532
-430182417008717,"Ốc La Cà -Đồng Đen","Ho Chi Minh City",Vietnam,10.786177063,106.643535848
-634682069961329,"Bông Sen Hotel Sài Gòn","Ho Chi Minh City",Vietnam,10.7750425,106.7040176
-1577392942489787,"Ruybăng Ribbon & Phụ kiện Cài Kẹp Cột tóc Handmade","Ho Chi Minh City",Vietnam,10.7401398982,106.655649979
-302531339925201,"Dalat coffee house","Ho Chi Minh City",Vietnam,10.7906771,106.672905
-1620049854911872,"Cơn Bão Triệu Phú","Ho Chi Minh City",Vietnam,10.8362459675,106.708810329
-397031793741992,"Suối Tre, Long Khánh","",,10.7653840277,106.694024664
-272717759450624,"Hồ Bán Nguyệt, Phú Mỹ Hưng, Quận 7","Ho Chi Minh City",Vietnam,10.7269107001,106.719790333
-1629552910632634,"Đoàn trường THPT chuyên Lê Hồng Phong","Ho Chi Minh City",Vietnam,10.7647495,106.6818237
-250049581795712,"Exile Ink Vietnam","Ho Chi Minh City",Vietnam,10.8061275,106.7352066
-155918314577453,"Cảng Cát Lái, Q 2","Ho Chi Minh City",Vietnam,10.7646278404,106.793284304
-115171948552252,"Independence palace, Saigon, Vietnam","Ho Chi Minh City",Vietnam,10.7781801,106.6964569
-805961829521606,"Dreamplex","Ho Chi Minh City",Vietnam,10.7829504,106.7047577
-218733224832468,"Ho Chi Minh City University of Technology and Education","Ho Chi Minh City",Vietnam,10.85157868,106.772137938
-319631444778063,"Chùa Linh Phước Thủ Đức","Ho Chi Minh City",Vietnam,10.8819025331,106.76727279
-169336603096312,"Vietnam Kingfisher Tourism","Ho Chi Minh City",Vietnam,10.7774496,106.6644058
-108458769184495,"Ho Chi Minh City, Vietnam","Ho Chi Minh City",Vietnam,10.7694,106.682
-186086438113504,"Nhà Thi Đấu Phú Thọ","Ho Chi Minh City",Vietnam,10.7686911262,106.657572666
-138930529579191,"Khach San Que Huong 4","Ho Chi Minh City",Vietnam,10.7680058143,106.692159035
-173877619310232,"Saigon Performing Arts Center","Fountain Valley",United States,33.7278709,-117.9548569
-737636772940106,"Amazon Online Shopping","Ho Chi Minh City",Vietnam,10.75,106.66667
-496590227135861,"Tai Cong Ty Nobland 1 Hiep Thanh Q12 Tphcm","Ho Chi Minh City",Vietnam,10.75,106.66667
+216693141766460,"Tân Bình Exhibition & Convention Center","Ho Chi Minh City",Vietnam,10.7951965,106.6553726
+1496389437357463,"D5ATTIC The CoWorking Space","Ho Chi Minh City",Vietnam,10.8063702,106.7116655
 115058285199350,"Memphis Paintball Park","Lakeland",United States,35.2238948266,-89.7421949862
-121410024700815,"Xa Bien Gioi, Huyen Chau Thanh, Tinh Tay Ninh","",,11.3347717208,105.899995298
-165534100322948,"Công Viên 23/9, Khu B","Ho Chi Minh City",Vietnam,10.8585741,106.7607056
+1667987533426769,"The Long","Ho Chi Minh City",Vietnam,10.773911031,106.704830963
+147073801994956,"Vjcc-Hcmc","Ho Chi Minh City",Vietnam,10.8067537061,106.712781423
+228436337217849,"University of Sciences","Ho Chi Minh City",Vietnam,10.762676151,106.682199813
 137022296318802,"District 2, Ho Chi Minh City","",,10.7808333333,106.756944444
-397188967078821,"Clb Ấm Áp Tình Người","Ho Chi Minh City",Vietnam,10.8199667142,106.723236004
-395143205624,"CGV Cinemas Vietnam","Ho Chi Minh City",Vietnam,10.8007496,106.7008456
-140897822681576,"Kent International College","Ho Chi Minh City",Vietnam,10.8129225,106.7161179
 23170666978,"Hotel Rex","San Francisco",United States,37.7892113,-122.4097519
-164954480295648,"DC Mormon Temple","Kensington",United States,39.0160484,-77.0643921
-1631512327118105,"LDG Group","Ho Chi Minh City",Vietnam,10.7863102,106.6918564
+695368053869991,"Fpt Shop 202 Nguyễn Thị Minh Khai","Ho Chi Minh City",Vietnam,10.7753096,106.6909332
 318221091619666,"Phu Quoc Island","",,10.7829157809,106.67448782
 914127498654137,"Nhà Thờ Thánh Gia - TGP Sài Gòn","Ho Chi Minh City",Vietnam,10.7935896,106.6893463
-790785584342379,"Boardgames Việt - Boardgame cho người Việt","Ho Chi Minh City",Vietnam,10.780323,106.6637878
-216693141766460,"Tân Bình Exhibition & Convention Center","Ho Chi Minh City",Vietnam,10.7951965,106.6553726
+188060294699390,"One Health","Ho Chi Minh City",Vietnam,10.8332484227,106.664057307
 635802649810216,"ATS - Tư vấn Du học Chuyên nghiệp","Ho Chi Minh City",Vietnam,10.7777474622,106.693072159
-1456445677912747,"2dh.Beauty - Hair Spa & Skin Care","Ho Chi Minh City",Vietnam,10.7954955894,106.695990402
-380365022048905,"Nhà Thi Đấu Lãnh Binh Thăng","",,10.7638102,106.6490097
+1493957517501687,"GEM Center","Ho Chi Minh City",Vietnam,10.7916555704,106.70059578
+362052973821453,"Ân Nam coffee - Trương Định, Q.3","Ho Chi Minh City",Vietnam,10.7812025445,106.685595391
+123114917705909,"Lush Saigon","Ho Chi Minh City",Vietnam,10.7828532101,106.705311673
 207460492654316,"White Palace Convention Center","Ho Chi Minh City",Vietnam,10.7997398,106.6744995
-356446051229982,"Corner Caffe & Dining","Ho Chi Minh City",Vietnam,10.7829571025,106.688167631
-646539845394939,"Long Island","Ho Chi Minh City",Vietnam,10.75,106.66667
+548170845231983,"MOB - BEER CLUB","Ho Chi Minh City",Vietnam,10.7791482215,106.695656776
+220557164642582,"Edward R. Murrow High School","Brooklyn",United States,40.6203918,-73.9592133
 433752176723033,"Đại học Ngân hàng TP.HCM","Ho Chi Minh City",Vietnam,10.7703032035,106.704185381
+461369370560535,"Grand Hotel 8 Đồng Khởi- Quận 1 - Tp Hồ Chí Minh","Ho Chi Minh City",Vietnam,10.7900091467,106.643065962
+221666598211,"L'USINE: Fashion, Lifestyle, Cafe, Gallery","Ho Chi Minh City",Vietnam,10.7758460826,106.70316182
 331029323703377,"Công Viên Tao Đàn","Ho Chi Minh City",Vietnam,10.7759670315,106.694091106
+185543198209896,"Công Viên 23 Tháng 9","Thành phố Hồ Chí Minh, Hồ Chí Minh, Vietnam",,10.7677298,106.6908035
 1436996373228328,"phú xuân krôngnăng đăklăk","",,12.91991765,108.3780133
 168724126658838,"Du học INEC","Ho Chi Minh City",Vietnam,10.7659429025,106.674232323
 398851480147675,"Hochiminh City; Vietnam","Ho Chi Minh City, Vietnam",,10.7548669347,106.665731715
 353688611448871,"Phòng Trà Nhạc Xanh","Ho Chi Minh City",Vietnam,10.811224,106.7116394
-524674157605582,"The Observatory","Ho Chi Minh City",Vietnam,10.7673130983,106.707137663
 134930110023155,"TP.HCM","Ho Chi Minh City",Vietnam,10.7881501017,106.666382281
+524674157605582,"The Observatory","Ho Chi Minh City",Vietnam,10.7673130983,106.707137663
+306277426062124,"Đại Học Hoa Sen","Ho Chi Minh City",Vietnam,10.7701484953,106.692411007
 260180270698080,"AIM Academy","Ho Chi Minh City",Vietnam,10.7878103,106.6969528
-1054532734611210,"Việc Làm Online Tại Hồ Chí Minh Và Biên Hòa","Ho Chi Minh City",Vietnam,10.7942429,106.6632309
+164676317201504,"Hoa Hoc Tro Garage Sale Sai Gon","Ho Chi Minh City",Vietnam,10.7896299,106.6748276
+1683428088537576,"NU Coffee & Ice Cream","Ho Chi Minh City",Vietnam,10.8129887471,106.67193532
+430182417008717,"Ốc La Cà -Đồng Đen","Ho Chi Minh City",Vietnam,10.786139722,106.643382436
+634682069961329,"Bông Sen Hotel Sài Gòn","Ho Chi Minh City",Vietnam,10.7750423,106.7040214
+1577392942489787,"Ruybăng Ribbon & Phụ kiện Cài Kẹp Cột tóc Handmade","Ho Chi Minh City",Vietnam,10.7401398982,106.655649979
+302531339925201,"Dalat coffee house","Ho Chi Minh City",Vietnam,10.7906771,106.672905
+1620049854911872,"Cơn Bão Triệu Phú","Ho Chi Minh City",Vietnam,10.8362459675,106.708810329
+397031793741992,"Suối Tre, Long Khánh","",,10.7653840277,106.694024664
+272717759450624,"Hồ Bán Nguyệt, Phú Mỹ Hưng, Quận 7","Ho Chi Minh City, Vietnam",,11.021302,106.5548143
+1629552910632634,"Đoàn trường THPT chuyên Lê Hồng Phong","Ho Chi Minh City",Vietnam,10.7647495,106.6818237
+380365022048905,"Nhà Thi Đấu Lãnh Binh Thăng","",,10.7638102,106.6490097
+155918314577453,"Cảng Cát Lái, Q 2","Ho Chi Minh City",Vietnam,10.7646278404,106.793284304
+115171948552252,"Independence palace, Saigon, Vietnam","Ho Chi Minh City",Vietnam,10.7781801,106.6964569
+429190153936493,"Khoa Điện-Điện Tử  SPKT TPHCM","Ho Chi Minh City",Vietnam,10.8503448438,106.770973206
+218733224832468,"Ho Chi Minh City University of Technology and Education","Binh Thanh",Vietnam,10.85157868,106.772137938
+319631444778063,"Chùa Linh Phước Thủ Đức","Ho Chi Minh City",Vietnam,10.8819025331,106.76727279
+169336603096312,"Vietnam Kingfisher Tourism","Ho Chi Minh City",Vietnam,10.7774496,106.6644058
+108458769184495,"Ho Chi Minh City, Vietnam","Ho Chi Minh City",Vietnam,10.7694,106.682
+186086438113504,"Nhà Thi Đấu Phú Thọ","Ho Chi Minh City",Vietnam,10.7686911262,106.657572666
+138930529579191,"Khach San Que Huong 4","Ho Chi Minh City",Vietnam,10.7679929701,106.692413744
+173877619310232,"Saigon Performing Arts Center","Fountain Valley",United States,33.7278709,-117.9548569
+151852408330370,"นครหลวงเวียงจันทน์ สปป.ลาว Vientiane Laos","Vientiane",Laos,17.9674922086,102.615500107
+737636772940106,"Amazon Online Shopping","Ho Chi Minh City",Vietnam,10.75,106.66667
+496590227135861,"Tai Cong Ty Nobland 1 Hiep Thanh Q12 Tphcm","Ho Chi Minh City",Vietnam,10.75,106.66667
+483175058418857,"Gia Dinh Church - 109 Phan Dang Luu, Ward 7, Phu Nhuan District, HCMC","Ho Chi Minh City",Vietnam,10.80270405,106.68396756
+397188967078821,"Clb Ấm Áp Tình Người","Ho Chi Minh City",Vietnam,10.8199667142,106.723236004
+121410024700815,"Xa Bien Gioi, Huyen Chau Thanh, Tinh Tay Ninh","",,11.30884098,105.88332164
+805961829521606,"Dreamplex","Ho Chi Minh City",Vietnam,10.7829504,106.7047577
+395143205624,"CGV Cinemas Vietnam","Ho Chi Minh City",Vietnam,10.8007496,106.7008456
+140897822681576,"Kent International College","Ho Chi Minh City",Vietnam,10.8129225,106.7161179
+164954480295648,"DC Mormon Temple","Kensington",United States,39.0160484,-77.0643921
+1631512327118105,"LDG Group","Ho Chi Minh City",Vietnam,10.7863102,106.6918564
+165534100322948,"Công Viên 23/9, Khu B","Ho Chi Minh City",Vietnam,10.79063492,106.70055107
+790785584342379,"Boardgames Việt - Boardgame cho người Việt","Ho Chi Minh City",Vietnam,10.780323,106.6637878
+356446051229982,"Corner Caffe & Dining","Ho Chi Minh City",Vietnam,10.7829571025,106.688167631
+558648594148823,"Sheraton Saigon Hotel. 88 Đồng Khởi Quận 1 HCM City","Ho Chi Minh City",Vietnam,10.7753984066,106.704321889
+173318639500373,"Salon Văn hóa Cà phê thứ Bảy","Ho Chi Minh City",Vietnam,10.78373,106.69466
+191904960869633,"Crescent Plaza Dictrict 7","Ho Chi Minh City",Vietnam,10.7273591793,106.720541562
+172926962775927,"BAN LIÊN LẠC SINH VIÊN PHÚ YÊN TẠI TP.HCM","Ho Chi Minh City",Vietnam,10.78269,106.6894608
+214021642094144,"Trung tâm Phát triển Khoa học và Công nghệ Trẻ","Ho Chi Minh City",Vietnam,10.75,106.66667
+407168855972136,"Circle K Crescent Plaza","Ho Chi Minh City",Vietnam,10.7264182903,106.721110662
+1054532734611210,"Việc Làm Online Tại Hồ Chí Minh Và Biên Hòa","Ho Chi Minh City",Vietnam,10.7942427,106.663229
 1562513684030712,"Le Méridien Saigon","Ho Chi Minh City",Vietnam,10.7797878,106.7075298
 182697855086912,"Stadium Theatre Performing Arts Centre","Woonsocket",United States,42.0053007886,-71.5119871919
 378440862233004,"Rạp Đống Đa","Ho Chi Minh City",Vietnam,10.75354,106.6741791
 1500788500146314,"Trung Tâm Ngoại Ngữ Talent","Ho Chi Minh City",Vietnam,10.75,106.66667
 798405756944138,"APT","Ho Chi Minh City",Vietnam,10.77563,106.6883392
-368003453314940,"Vietnam Motorcycle Tours","Ho Chi Minh City",Vietnam,10.7645305402,106.690808374
 146679858699194,"Axon Active Vietnam","Ho Chi Minh City",Vietnam,10.8092204317,106.664466269
-901626703235679,"City Garden","Bình Thanh (1)",Vietnam,10.7917004,106.7138824
+317511638347186,"Cẩm Giang, Tây Ninh","",,11.212240219,106.15085812
+901626703235679,"City Garden","Bình Thanh (1)",Vietnam,10.79366053,106.711855435
 740604209368571,"Compassion In Vietnam - Chắp Cánh Yêu Thương","Ho Chi Minh City",Vietnam,10.804019,106.6852646
 1610081362581484,"Blue Square 91 Phạm Văn Hai","",,10.7938359845,106.663171461
 359105870910198,"CIS Canadian International School Stadium","Ho Chi Minh City",Vietnam,10.714489332,106.729739207
 435182723355450,"Công Viên 23-9","Ho Chi Minh City",Vietnam,10.7709636,106.6969735
-792695370809320,"Fpt Polytechnic Hcm","Ho Chi Minh City",Vietnam,10.790572142,106.681721767
+792695370809320,"Fpt Polytechnic Hcm","Ho Chi Minh City",Vietnam,10.7905685751,106.681723707
 123529854410085,"Family Inn Hotel, Saigon","Ho Chi Minh City",Vietnam,10.7712402,106.6896973
-158587047631687,"Tư Vấn Du Học Quốc Anh IEC","Ho Chi Minh City",Vietnam,10.7720290896,106.689236087
+158587047631687,"Tư Vấn Du Học Quốc Anh IEC","Ho Chi Minh City",Vietnam,10.7720389627,106.689246319
 120674494614559,"St Andrews Episcopal Church","Beacon",United States,41.5070496,-73.9777985
 173694176159689,"CIT","Ho Chi Minh City",Vietnam,10.75,106.66667
 144845212220147,"Bất Động Sản Việt Nam - Vietnam Real Estate","Ho Chi Minh City",Vietnam,10.75,106.66667
 231027040380504,"WORK Saigon","Ho Chi Minh City",Vietnam,10.7805244733,106.688175783
-113456572301,"LIN Center for Community Development","Ho Chi Minh City",Vietnam,10.7942303457,106.719037356
+113456572301,"LIN Center for Community Development","Binh Thanh",Vietnam,10.7942303457,106.719037356
 108624324547,"XoneFM","Ho Chi Minh City",Vietnam,10.7301212198,106.720702836
 103988089638892,"Ho Chi Minh City Medicine and Pharmacy University","Ho Chi Minh City",Vietnam,10.7556,106.6629
 476174799078113,"Đại Học Ngoại Thương Cơ Sở 2 Tp HCM","Ho Chi Minh City",Vietnam,10.8066225,106.713295
 248480555347824,"Xúc Xắc Xoay Coffee","Ho Chi Minh City",Vietnam,10.7590350152,106.665274545
 884672811553550,"Giant Step Urban Art Gallery","Ho Chi Minh City",Vietnam,10.779788,106.7075272
 189259747917012,"Tint Eye Lens TP Hồ Chí Minh","Ho Chi Minh City",Vietnam,10.75,106.66667
-173318639500373,"Salon Văn hóa Cà phê thứ Bảy","Ho Chi Minh City",Vietnam,10.7837296,106.6946564
-191904960869633,"Crescent Plaza Dictrict 7","Ho Chi Minh City",Vietnam,10.7273591793,106.720541562
-1516680205310963,"Trung tâm hội nghi tiệc cưới Capella Parkview","Ho Chi Minh City",Vietnam,10.8096294,106.6782608
+368003453314940,"Vietnam Motorcycle Tours","Ho Chi Minh City",Vietnam,10.7645305402,106.690808374
 217844788355027,"Công Viên 23-09","Ho Chi Minh City",Vietnam,10.7684088367,106.691559381
 709012782538705,"Bệnh viện Tai Mũi Họng Sài Gòn","Ho Chi Minh City",Vietnam,10.7676897,106.6969528
 497343927075419,"Công Viên Phần Mềm Quang Trung Q.12","Ho Chi Minh City",Vietnam,10.854427595,106.627910955
-172926962775927,"BAN LIÊN LẠC SINH VIÊN PHÚ YÊN TẠI TP.HCM","Ho Chi Minh City",Vietnam,10.78269,106.6894608
-214021642094144,"Trung tâm Phát triển Khoa học và Công nghệ Trẻ","Ho Chi Minh City",Vietnam,10.75,106.66667
 1466954370270567,"Hotel des Arts Saigon, MGallery Collection","Ho Chi Minh City",Vietnam,10.7822027,106.6972809
-131071397226264,"Vé Máy Bay Long Quang","Hanoi",Vietnam,21.0177288,105.8123474
+131071397226264,"Vé Máy Bay Long Quang","Hanoi",Vietnam,,

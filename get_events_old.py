@@ -7,7 +7,7 @@ import pandas as pd
 alrEvent = pd.read_csv('crawled_data/events.csv', dtype = {'event_id': object})
 alrEvent = list(alrEvent['event_id'])
 # All garbage
-garbage = pd.read_csv('data/garbage.csv', dtype = {'event_id': object})
+garbage = pd.read_csv('crawled_data/garbage.csv', dtype = {'event_id': object})
 garbage = list(garbage['event_id'])
 
 alrEvent = set(alrEvent + garbage)
@@ -16,7 +16,7 @@ alrEvent = set(alrEvent + garbage)
 accessToken = 'CAAXYU3sVODIBACjHifndiII9mIOs6ZBVGtEIXo6jy6PgcxqONyR1RstgxgmuMBuZBjLilpwpic5zZBSJGjyFv2TRlZBzD00ju7TddJ7UAXWwJle3ZBVrIVWWnIJIhoxvCqmP2NZCWnbZBZBBC5R1xKhXzEL0j3Czr8ZCSBQ6YXi7UVffviI5WwdTF'
 
 graph = facebook.GraphAPI(access_token = accessToken)#, version = '2.5')
-events = graph.request(path = 'v2.5/search', args = {'q': 'Ho Chi Minh city', 'type': 'event', 'fields': 'id,owner,name,description,start_time,place,\
+events = graph.request(path = 'v2.5/search', args = {'q': 'Thanh pho Ho Chi Minh', 'type': 'event', 'fields': 'id,owner,name,description,start_time,place,\
 	attending.summary(true),maybe.summary(true),declined.summary(true)'})
 
 count = 0
