@@ -19,8 +19,7 @@ num_pos = 0
 #########
 # This function is implemented for balancing data, between interested and uninterested events
 # input: dictionary of data with key is uid
-def balanceData():
-	category = {0: 'attend', 1: 'maybe'} # constant dictionary
+def balanceData():	
 	global train_test, num_neg, num_pos
 
 	rm_amount = num_pos - num_neg
@@ -28,16 +27,12 @@ def balanceData():
 	while rm_amount > 0:
 		idx = random.randrange(len(uids))
 		uid = uids[idx]
-		catg = random.randrange(2)
-		if len(train_test[uid][category[catg]]) == 0:
-			catg = (catg + 1) % 2
-		if len(train_test[uid][category[catg]]) == 0:
+		if len(train_test[uid]['interested']) == 0:
 			del uids[idx]
 			continue
-		catg = category[catg]
 
-		idx = random.randrange(len(train_test[uid][catg]))
-		del train_test[uid][catg][idx]
+		idx = random.randrange(len(train_test[uid]['interested']))
+		del train_test[uid]['interested'][idx]
 		rm_amount -= 1
 
 
@@ -51,7 +46,7 @@ train_test = {}
 for idx, row in data.iterrows():	
 	uid = row['user_id']
 	dataset[uid] = {'attend': [], 'maybe': [], 'declined': []}
-	train_test[uid] = {'attend': [], 'maybe': [], 'declined': []}
+	train_test[uid] = {'interested': [], 'uninterested': []}
 
 	attend = row['attend'].split()	
 	maybe = row['maybe'].split()
@@ -61,20 +56,20 @@ for idx, row in data.iterrows():
 	# second half is not existed and will be used for training and testing
 	bound = int((len(attend) + 1) / 2)
 	dataset[uid]['attend'] = attend[:bound]
-	train_test[uid]['attend'] = attend[bound:]
+	train_test[uid]['interested'] = attend[bound:]
 
 	bound = int((len(maybe) + 1) / 2)
 	dataset[uid]['maybe'] = maybe[:bound]
-	train_test[uid]['maybe'] = maybe[bound:]
+	train_test[uid]['interested'] += maybe[bound:]
 	
 	bound = int((len(declined) + 1) / 2)
 	dataset[uid]['declined'] = declined[:bound]
-	train_test[uid]['declined'] = declined[bound:]
+	train_test[uid]['uninterested'] = declined[bound:]
 
 	# count for amount of uninterested events in train_test dataset
-	num_neg += len(train_test[uid]['declined'])
+	num_neg += len(train_test[uid]['uninterested'])
 	# count for amount of interested events in train_test dataset
-	num_pos += len(train_test[uid]['attend']) + len(train_test[uid]['maybe'])
+	num_pos += len(train_test[uid]['interested'])
 
 #print('extract complete')
 
@@ -85,13 +80,22 @@ oup.write('user_id,attend,maybe,declined\n')
 for user, event in dataset.iteritems():
 	oup.write(user)
 	oup.write(',')
-	oup.write(' '.join(event['attend']))
+	for eventId in event['attend'][:-1]:
+		oup.write(eventId + " ")
+	if (len(event['attend']) > 0): 
+		oup.write(event['attend'][-1])
 	oup.write(',')
 
-	oup.write(' '.join(event['maybe']))
+	for eventId in event['maybe'][:-1]:
+		oup.write(eventId + " ")
+	if (len(event['maybe']) > 0): 
+		oup.write(event['maybe'][-1])
 	oup.write(',')
 
-	oup.write(' '.join(event['declined']))
+	for eventId in event['declined'][:-1]:
+		oup.write(eventId + " ")
+	if (len(event['declined']) > 0): 
+		oup.write(event['declined'][-1])
 	oup.write('\n')
 
 oup.close()
@@ -104,32 +108,30 @@ test_out = open('tmp/test.csv', 'w')
 train_out.write('user_id,event_id,interested\n')
 test_out.write('user_id,event_id,interested\n')
 
-for uid, event in train_test.iteritems():
-	N = len(event['attend']) + len(event['maybe']) + len(event['declined']) # total number
-	train_amount = int((N * 2 + 1) / 3)
-	eids = [event['attend'] + event['maybe'], event['declined']]	
-	#label = ['1', '1', '0'] # 1: interested, 0: not interested
-	label = ['1', '0'] # 2 classes
+uids = train_test.keys()
+# create pool of train_test data
+pool = []
+for uid, events in train_test.iteritems():
+	for event in events['interested']:
+		pool.append([uid, event, '1'])
+	for event in events['uninterested']:
+		pool.append([uid, event, '0'])
+random.shuffle(pool)
 
-	while train_amount > 0:
-		i = random.randrange(len(eids))
-		if (len(eids[i]) == 0):
-			del eids[i]
-			del label[i]
-			continue
-
-		j = random.randrange(len(eids[i])) # exclusive, oppose with randint (inclusive)
-		train_out.write(uid + ',')
-		train_out.write(eids[i][j] + ',')
-		train_out.write(label[i] + '\n')
-		del eids[i][j]
-		train_amount = train_amount - 1
+#train_amount = int((num_neg * 4 + 1) / 3)
+train_amount = int((len(pool) * 2 + 1) / 3)
+# generate train set first
+for idx in range(train_amount):
+	train_out.write(pool[idx][0] + ',')
+	train_out.write(pool[idx][1] + ',')
+	train_out.write(pool[idx][2] + '\n')
 	
-	for i in range(len(eids)):
-		for j in range(len(eids[i])):
-			test_out.write(uid + ',')
-			test_out.write(eids[i][j] + ',')
-			test_out.write(label[i] + '\n')
+# the rest is test set
+pool = pool[train_amount:]
+for case in pool:
+	test_out.write(case[0] + ',')
+	test_out.write(case[1] + ',')
+	test_out.write(case[2] + '\n')
 	
 train_out.close()
 test_out.close()

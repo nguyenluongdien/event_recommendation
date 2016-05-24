@@ -5,6 +5,8 @@ import pandas as pd
 import numpy as np
 
 from model import Model
+from eval import apk
+from eval import dissimilarity
 import formula
 
 events = pd.read_csv('data/events.csv', dtype = {'event_id': object, 'owner': object, 'place_id': object})
@@ -14,6 +16,8 @@ places.fillna('', inplace = True)
 event_tfidf = pd.read_csv('data/event_tfidf.csv', dtype = {'event_id': object})
 user_event = pd.read_csv('tmp/dataset.csv', dtype = {'user_id': object})
 user_event.fillna('', inplace = True)
+attendee = pd.read_csv('data/attendees.csv', dtype = {'event_id': object})
+attendee.fillna('', inplace = True)
     
 # Compute similarity of current event and user's interested events (in user's history)
 def get_interested_sim(uid, eid):
@@ -191,26 +195,105 @@ def process_event(uid, eid):
 def get_data(filename):	
     dataset = pd.read_csv(filename, dtype = {'user_id': object, 'event_id': object})
 
-    data = {'X': [], 'Y': []}
+    data = {'X': [], 'Y': [], 'pair': []}
     for idx, record in dataset.iterrows():
         uid = record['user_id']
         eid = record['event_id']
         feature = process_event(uid, eid)
 
         data['X'].append(feature)
-        data['Y'].append(record[-1])        	
+        data['Y'].append(record[-1])
+        data['pair'].append([uid, eid])    	
             
     return data
 
-def run_full(judged_class = 0, threshold = 0.6):
+def analyze(judged_class = 0):
+    train = get_data('tmp/train.csv')
+    test = get_data('tmp/test.csv')    	
+
+    C = 0.03
+    #C = 0.3
+    m1 = Model(judged_class = judged_class, C = C)
+    m1.fit(train['X'], train['Y'])
+    m1.analyze_threshold(test['X'], test['Y'])
+
+def run_ranking():
+    train = get_data('tmp/train.csv')
+    test = get_data('tmp/test.csv')
+    
+    C = 0.03
+    m1 = Model(C = C)
+    m1.fit(train['X'], train['Y'])
+
+    m1.judged_class = 0
+    m1.threshold = 0.35
+    res_class = m1.test(test['X'])
+    res_prob = m1.test_proba(test['X'])
+
+    # generate solution dict for each user
+    solution_dict = {}
+    for i in range(len(test['Y'])):
+        uid = test['pair'][i][0]
+        eid = test['pair'][i][1]
+        if uid not in solution_dict:
+            solution_dict[uid] = []
+        if test['Y'][i] == 1:
+            solution_dict[uid].append(eid)
+
+    # generate result dict for each user
+    score_dict = {'sim': {}, 'rev_sim': {}, 'diver': {}, 'abs_like': {}, 'rel_like': {}}
+    result_dict = {}
+    vect_dict = {}
+    for i in range(len(test['Y'])):        
+        uid = test['pair'][i][0]
+        eid = test['pair'][i][1]
+        if uid not in result_dict:
+            score_dict['sim'][uid] = []
+            score_dict['rev_sim'][uid] = []
+            score_dict['diver'][uid] = []
+            score_dict['abs_like'][uid] = []
+            score_dict['rel_like'][uid] = []
+            result_dict[uid] = []
+            vect_dict[uid] = []      
+        if res_class[i] == 1:
+            score_dict['sim'][uid].append(res_prob[i][1])
+            score_dict['rev_sim'][uid].append(1 / res_prob[i][1])
+            score_dict['diver'][uid].append(res_prob[i][1] * (1 - res_prob[i][1]))
+            e = attendee[attendee.event_id == eid]
+            n_attend = len(e.at[e.index[0], 'attend'].split())
+            n_maybe = len(e.at[e.index[0], 'maybe'].split())
+            n_declined = len(e.at[e.index[0], 'declined'].split())
+            score_dict['abs_like'][uid].append(n_attend)
+            score_dict['rel_like'][uid].append(float(n_attend + n_maybe) / (n_attend + n_maybe + n_declined))
+            result_dict[uid].append(eid)
+            e = event_tfidf[event_tfidf.event_id == eid]
+            vec_e = list(e.ix[e.index[0], 1:])
+            vect_dict[uid].append(vec_e)
+    
+    # sort score and reorder ranking list for each user
+    for score_type, dict_score in score_dict.iteritems():
+        list_scores = []
+        diver_scores = []
+        for uid, scores in dict_score.iteritems():
+            idx = np.argsort(scores[::-1])
+            rank_list = [result_dict[uid][i] for i in idx]
+            vect_list = [vect_dict[uid][i] for i in idx]
+            ap_score = apk(solution_dict[uid], rank_list)
+            dis_score = dissimilarity(vect_list)
+            list_scores.append(ap_score)
+            diver_scores.append(dis_score)
+        print('MAP score bases on {}: {}'.format(score_type, sum(list_scores) / len(list_scores)))
+        print('Diversity score bases on {}: {}'.format(score_type, sum(diver_scores) / len(diver_scores)))
+
+def run_full():
     train = get_data('tmp/train.csv')
     test = get_data('tmp/test.csv')
     
     C = 0.03
     #C = 0.3
-    m1 = Model(judged_class = judged_class, threshold = threshold, C = C)
+    m1 = Model(C = C)
     m1.fit(train['X'], train['Y'])
-    results = m1.test(test['X'])	
+    results = m1.test1(test['X'])
     
     error = 0
     tp = 0
@@ -233,122 +316,93 @@ def run_full(judged_class = 0, threshold = 0.6):
     err = float(error) / len(results)
     precision = float(tp) / (tp + fp + 1)
     recall = float(tp) / (tp + fn + 1)
-    specificity = float(tn) / (tn + fp + 1)
-
+    spec = float(tn) / (tn + fp + 1)
+    
     print('tp = {}, fp = {}, tn = {}, fn = {}'.format(tp, fp, tn, fn))
     print('error rate: {}'.format(err))
     print('precision: {}'.format(precision))
     print('recall: {}'.format(recall))
-    print('specificity: {}'.format(specificity))
-
-
-def analyze(judged_class = 0):
-    train = get_data('tmp/train.csv')
-    test = get_data('tmp/test.csv')    	
-
-    C = 0.03
-    #C = 0.3
-    m1 = Model(judged_class = judged_class, C = C)
-    m1.fit(train['X'], train['Y'])
-    m1.analyze_threshold(test['X'], test['Y'])
-
+    print('specificity: {}'.format(spec))
 
 def run_compare():
-	train = get_data('tmp/train.csv')
-	test = get_data('tmp/test.csv')
-    
-	C = 0.03
-	#C = 0.3
-	m1 = Model(C = C)
-	m1.fit(train['X'], train['Y'])
-
-	for judged_class in range(2):
-		m1.judged_class = judged_class
-		if judged_class == 0:
-			m1.threshold = 0.25
-		else:
-			m1.threshold = 0.69
-
-		results = m1.test(test['X'])	
-		
-		error = 0
-		tp = 0
-		fp = 0
-		tn = 0
-		fn = 0
-
-		for i in range(len(results)):
-			if results[i] != test['Y'][i]:			
-				error += 1
-				if results[i] == 1:
-					fp += 1
-				else:
-					fn += 1
-			elif results[i] == 1:
-				tp += 1
-			else:
-				tn += 1
-
-		err = float(error) / len(results)
-		precision = float(tp) / (tp + fp + 1)
-		recall = float(tp) / (tp + fn + 1)
-		spec = float(tn) / (tn + fp + 1)
-
-		print('Judged class: {}'.format(judged_class))
-		print('tp = {}, fp = {}, tn = {}, fn = {}'.format(tp, fp, tn, fn))
-		print('error rate: {}'.format(err))
-		print('precision: {}'.format(precision))
-		print('recall: {}'.format(recall))
-		print('specificity: {}'.format(spec))
-		'''
-		print('harmonic mean (recall & precision): {}'.format(2 * precision * recall / (recall + precision)))
-		print('harmonic mean (recall & spec): {}'.format(2 * spec * recall / (recall + spec)))
-		print('harmonic mean (spec & precision): {}'.format(2 * precision * spec / (spec + precision)))
-		print('harmonic mean (spec, recall, precision): {}'.format(3 / (1/recall + 1/precision + 1/spec)))
-		'''
-
-
-def run_statistics(judged_class = 0, threshold = 0.6):
     train = get_data('tmp/train.csv')
-    test = get_data('tmp/test.csv')   
-    global out_stats 	
-    
+    test = get_data('tmp/test.csv')
+
     C = 0.03
     #C = 0.3
-    m1 = Model(judged_class = judged_class, threshold = threshold, C = C)
+    m1 = Model(C = C)
     m1.fit(train['X'], train['Y'])
 
-    for w0 in frange(0.1, 0.9, 0.1):
-        for w1 in frange(0.1, 0.9, 0.1):
-            m1.w0 = w0
-            m1.w1 = w1
-            print('({0}, {1}) passed'.format(w0, w1))
-            results = m1.test(test['X'])	
-            
-            error = 0
-            tp = 0
-            fp = 0
-            tn = 0
-            fn = 0
+    for judged_class in range(2):
+        m1.judged_class = judged_class
+        if judged_class == 0:
+            m1.threshold = 0.35
+        else:
+            m1.threshold = 0.63
 
-            for i in range(len(results)):
-                if results[i] != test['Y'][i]:			
-                    error += 1
-                    if results[i] == 1:
-                        fp += 1
-                    else:
-                        fn += 1
-                elif results[i] == 1:
-                    tp += 1
+        results = m1.test(test['X'])	
+
+        error = 0
+        tp = 0
+        fp = 0
+        tn = 0
+        fn = 0
+
+        for i in range(len(results)):
+            if results[i] != test['Y'][i]:			
+                error += 1
+                if results[i] == 1:
+                    fp += 1
                 else:
-                    tn += 1
+                    fn += 1
+            elif results[i] == 1:
+                tp += 1
+            else:
+                tn += 1
 
-            err = float(error) / len(results)
-            precision = float(tp) / (tp + fp + 1)
-            recall = float(tp) / (tp + fn + 1)
-            specificity = float(tn) / (tn + fp + 1)           
+        err = float(error) / len(results)
+        precision = float(tp) / (tp + fp + 1)
+        recall = float(tp) / (tp + fn + 1)
+        spec = float(tn) / (tn + fp + 1)
 
-            out_stats.write('({0}, {1})\t{2}\t{3}\t{4}\t{5}\n'.format(w0, w1, err, precision, recall, specificity))
+        print('Judged class: {}'.format(judged_class))
+        print('tp = {}, fp = {}, tn = {}, fn = {}'.format(tp, fp, tn, fn))
+        print('error rate: {}'.format(err))
+        print('precision: {}'.format(precision))
+        print('recall: {}'.format(recall))
+        print('specificity: {}'.format(spec))
+
+    results = m1.test1(test['X'])
+
+    error = 0
+    tp = 0
+    fp = 0
+    tn = 0
+    fn = 0
+
+    for i in range(len(results)):
+	    if results[i] != test['Y'][i]:			
+		    error += 1
+		    if results[i] == 1:
+			    fp += 1
+		    else:
+			    fn += 1
+	    elif results[i] == 1:
+		    tp += 1
+	    else:
+		    tn += 1
+
+    err = float(error) / len(results)
+    precision = float(tp) / (tp + fp + 1)
+    recall = float(tp) / (tp + fn + 1)
+    spec = float(tn) / (tn + fp + 1)
+
+    print('Judge both classes')
+    print('tp = {}, fp = {}, tn = {}, fn = {}'.format(tp, fp, tn, fn))
+    print('error rate: {}'.format(err))
+    print('precision: {}'.format(precision))
+    print('recall: {}'.format(recall))
+    print('specificity: {}'.format(spec))		
 
 ##################################
 # test cases
@@ -369,10 +423,11 @@ out_stats = open('stats.txt', 'a')
 run_statistics()
 out_stats.close()
 '''
-#run_full()
-#analyze(judged_class = 1)
+
 #analyze()
-run_compare()
+run_ranking()
+#run_full()
+#run_compare()
 
 
 '''

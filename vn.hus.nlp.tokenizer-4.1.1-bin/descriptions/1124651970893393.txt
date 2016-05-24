@@ -1,0 +1,11 @@
+Hội thảo Power BI và Big data bởi nhóm DX Microsoft
+Thời gian Nội dung
+08:30 – 09:00 Chào đón
+09:00 – 09:20 Microsoft Data Platform Overview
+09:20 – 10:30 Microsoft Azure Data Lake
+10:30 – 10:40 Break
+10:40 – 11:20 Microsoft Azure Machine Learning
+11:20 – 12:00 Microsoft Power BI
+đăng kí tại đây: 
+
+https://msevents.microsoft.com/cui/EventDetail.aspx?culture=en-VN&EventID=1032694324&IO=mdNPvHZxPjbJzk69TkLWaw%3d%3d

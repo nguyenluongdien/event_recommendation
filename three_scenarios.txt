@@ -1,0 +1,181 @@
+Judged class: 0
+tp = 1096, fp = 61, tn = 189, fn = 81
+error rate: 0.0995094604064
+precision: 0.946459412781
+recall: 0.93039049236
+specificity: 0.752988047809
+Judged class: 1
+tp = 1162, fp = 111, tn = 139, fn = 15
+error rate: 0.0882971268395
+precision: 0.912087912088
+recall: 0.986417657046
+specificity: 0.553784860558
+Judge both classes
+tp = 1162, fp = 111, tn = 139, fn = 15
+error rate: 0.0882971268395
+precision: 0.912087912088
+recall: 0.986417657046
+specificity: 0.553784860558
+Judged class: 0
+tp = 1123, fp = 76, tn = 166, fn = 62
+error rate: 0.0967063770147
+precision: 0.935833333333
+recall: 0.946880269815
+specificity: 0.683127572016
+Judged class: 1
+tp = 1174, fp = 115, tn = 127, fn = 11
+error rate: 0.0882971268395
+precision: 0.91007751938
+recall: 0.989881956155
+specificity: 0.522633744856
+Judge both classes
+tp = 1174, fp = 115, tn = 127, fn = 11
+error rate: 0.0882971268395
+precision: 0.91007751938
+recall: 0.989881956155
+specificity: 0.522633744856
+Judged class: 0
+tp = 1108, fp = 76, tn = 183, fn = 60
+error rate: 0.0953048353189
+precision: 0.935021097046
+recall: 0.947818648417
+specificity: 0.703846153846
+Judged class: 1
+tp = 1155, fp = 118, tn = 141, fn = 13
+error rate: 0.0918009810792
+precision: 0.906593406593
+recall: 0.988023952096
+specificity: 0.542307692308
+Judge both classes
+tp = 1155, fp = 118, tn = 141, fn = 13
+error rate: 0.0918009810792
+precision: 0.906593406593
+recall: 0.988023952096
+specificity: 0.542307692308
+Judged class: 0
+tp = 1097, fp = 62, tn = 197, fn = 71
+error rate: 0.0932025227751
+precision: 0.945689655172
+recall: 0.938408896493
+specificity: 0.757692307692
+Judged class: 1
+tp = 1156, fp = 108, tn = 151, fn = 12
+error rate: 0.0840925017519
+precision: 0.913833992095
+recall: 0.988879384089
+specificity: 0.580769230769
+Judge both classes
+tp = 1156, fp = 108, tn = 151, fn = 12
+error rate: 0.0840925017519
+precision: 0.913833992095
+recall: 0.988879384089
+specificity: 0.580769230769
+Judged class: 0
+tp = 1099, fp = 75, tn = 191, fn = 62
+error rate: 0.0960056061668
+precision: 0.935319148936
+recall: 0.94578313253
+specificity: 0.715355805243
+Judged class: 1
+tp = 1146, fp = 114, tn = 152, fn = 15
+error rate: 0.0903994393833
+precision: 0.908802537669
+recall: 0.986230636833
+specificity: 0.569288389513
+Judge both classes
+tp = 1146, fp = 114, tn = 152, fn = 15
+error rate: 0.0903994393833
+precision: 0.908802537669
+recall: 0.986230636833
+specificity: 0.569288389513
+Judged class: 0
+tp = 1078, fp = 76, tn = 190, fn = 83
+error rate: 0.111422564821
+precision: 0.933333333333
+recall: 0.927710843373
+specificity: 0.711610486891
+Judged class: 1
+tp = 1138, fp = 113, tn = 153, fn = 23
+error rate: 0.0953048353189
+precision: 0.908945686901
+recall: 0.97934595525
+specificity: 0.573033707865
+Judge both classes
+tp = 1138, fp = 113, tn = 153, fn = 23
+error rate: 0.0953048353189
+precision: 0.908945686901
+recall: 0.97934595525
+specificity: 0.573033707865
+Judged class: 0
+tp = 1101, fp = 79, tn = 181, fn = 66
+error rate: 0.10161177295
+precision: 0.932260795936
+recall: 0.942636986301
+specificity: 0.693486590038
+Judged class: 1
+tp = 1153, fp = 131, tn = 129, fn = 14
+error rate: 0.10161177295
+precision: 0.897276264591
+recall: 0.987157534247
+specificity: 0.494252873563
+Judge both classes
+tp = 1153, fp = 131, tn = 129, fn = 14
+error rate: 0.10161177295
+precision: 0.897276264591
+recall: 0.987157534247
+specificity: 0.494252873563
+Judged class: 0
+tp = 1098, fp = 63, tn = 183, fn = 83
+error rate: 0.102312543798
+precision: 0.944922547332
+recall: 0.928934010152
+specificity: 0.740890688259
+Judged class: 1
+tp = 1160, fp = 109, tn = 137, fn = 21
+error rate: 0.0911002102313
+precision: 0.913385826772
+recall: 0.981387478849
+specificity: 0.554655870445
+Judge both classes
+tp = 1160, fp = 109, tn = 137, fn = 21
+error rate: 0.0911002102313
+precision: 0.913385826772
+recall: 0.981387478849
+specificity: 0.554655870445
+Judged class: 0
+tp = 1098, fp = 81, tn = 171, fn = 77
+error rate: 0.110721793973
+precision: 0.930508474576
+recall: 0.933673469388
+specificity: 0.675889328063
+Judged class: 1
+tp = 1157, fp = 112, tn = 140, fn = 18
+error rate: 0.0911002102313
+precision: 0.911023622047
+recall: 0.983843537415
+specificity: 0.553359683794
+Judge both classes
+tp = 1157, fp = 112, tn = 140, fn = 18
+error rate: 0.0911002102313
+precision: 0.911023622047
+recall: 0.983843537415
+specificity: 0.553359683794
+Judged class: 0
+tp = 1074, fp = 70, tn = 207, fn = 76
+error rate: 0.102312543798
+precision: 0.937991266376
+recall: 0.933101650738
+specificity: 0.744604316547
+Judged class: 1
+tp = 1132, fp = 110, tn = 167, fn = 18
+error rate: 0.0896986685354
+precision: 0.910699919549
+recall: 0.983492615117
+specificity: 0.60071942446
+Judge both classes
+tp = 1132, fp = 110, tn = 167, fn = 18
+error rate: 0.0896986685354
+precision: 0.910699919549
+recall: 0.983492615117
+specificity: 0.60071942446
+
